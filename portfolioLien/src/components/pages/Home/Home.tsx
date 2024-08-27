@@ -1,9 +1,10 @@
+import Header from "../../basics/Header/Header";
 
 const Home = () => {
   return (
-    <div className="w-screen h-screen">
-      home
-    </div>  
+    <Header>
+      Homepage
+    </Header>  
   )
 };
 
