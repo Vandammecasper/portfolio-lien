@@ -5,7 +5,14 @@ export default {
     colors: {
       primary: "#B0D795",
     },
-    extend: {},
+    fontFamily: {
+      ivyMode: ["IvyMode", "sans-serif"],
+    },
+    extend: {
+      fontSize:{
+        '10xl': '11rem'
+      }
+    },
   },
   plugins: [],
 }
