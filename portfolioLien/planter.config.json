@@ -28,16 +28,13 @@
   "typesPath": "src/types",
   "components": {
     "basics": {
-      "component": "src/components/basics/@pascalCase/@pascalCase.@ext",
-      "test": "src/components/basics/@pascalCase/tests/@pascalCase.test.@ext"
+      "component": "src/components/basics/@pascalCase/@pascalCase.@ext"
     },
     "elements": {
-      "component": "src/components/elements/@pascalCase/@pascalCase.@ext",
-      "test": "src/components/elements/@pascalCase/tests/@pascalCase.test.@ext"
+      "component": "src/components/elements/@pascalCase/@pascalCase.@ext"
     },
     "pages": {
-      "component": "src/components/pages/@pascalCase/@pascalCase.@ext",
-      "test": "src/components/pages/@pascalCase/tests/@pascalCase.test.@ext"
+      "component": "src/components/pages/@pascalCase/@pascalCase.@ext"
     }
   },
   "usePropTypes": true
