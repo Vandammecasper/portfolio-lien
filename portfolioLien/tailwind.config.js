@@ -10,7 +10,7 @@ export default {
     },
     extend: {
       fontSize:{
-        '10xl': '11rem'
+        '10xl': '12rem'
       }
     },
   },
