@@ -4,6 +4,7 @@ export const ReviewCard = ({
 }: {
   img: string;
   name: string;
+  number: string;
 }) => {
   return (
     <figure

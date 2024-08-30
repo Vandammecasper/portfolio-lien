@@ -4,12 +4,12 @@ import { ReviewCard } from "../../basics/Reviewcard/ReviewCard";
 
 const designs = [
   {
-    key: "1",
+    number: "1",
     name: "FILMPOSTER",
     img: "/filmposter.png",
   },
   {
-    key: "2",
+    number: "2",
     name: "LOGO",
     img: "/logo.png",
   },
@@ -78,7 +78,7 @@ const Home = () => {
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
             {designs.map((review) => (
-              <ReviewCard key={review.key} {...review} />
+              <ReviewCard key={review.number} {...review} />
             ))}
           </Marquee>
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
