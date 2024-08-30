@@ -15,38 +15,38 @@ const designs = [
   },
 ];
 
-const photos = [
-  {
-    key: "1",
-    name: "COMPOSITIE EITJES",
-    img: "https://avatar.vercel.sh/jack",
-  },
-  {
-    key: "2",
-    name: "stoel",
-    img: "https://avatar.vercel.sh/jill",
-  },
-  {
-    key: "3",
-    name: "mandarijn",
-    img: "https://avatar.vercel.sh/john",
-  },
-  {
-    key: "4",
-    name: "eitjes",
-    img: "https://avatar.vercel.sh/jane",
-  },
-  {
-    key: "5",
-    name: "stoel",
-    img: "https://avatar.vercel.sh/jenny",
-  },
-  {
-    key: "6",
-    name: "mandarijn",
-    img: "https://avatar.vercel.sh/james",
-  },
-];
+// const photos = [
+//   {
+//     key: "1",
+//     name: "COMPOSITIE EITJES",
+//     img: "https://avatar.vercel.sh/jack",
+//   },
+//   {
+//     key: "2",
+//     name: "stoel",
+//     img: "https://avatar.vercel.sh/jill",
+//   },
+//   {
+//     key: "3",
+//     name: "mandarijn",
+//     img: "https://avatar.vercel.sh/john",
+//   },
+//   {
+//     key: "4",
+//     name: "eitjes",
+//     img: "https://avatar.vercel.sh/jane",
+//   },
+//   {
+//     key: "5",
+//     name: "stoel",
+//     img: "https://avatar.vercel.sh/jenny",
+//   },
+//   {
+//     key: "6",
+//     name: "mandarijn",
+//     img: "https://avatar.vercel.sh/james",
+//   },
+// ];
 
 const Home = () => {
   return (
