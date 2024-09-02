@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Header from "../../basics/Header/Header";
 import Marquee from "../../basics/Marquee/Marquee";
 import { ReviewCard } from "../../basics/Reviewcard/ReviewCard";
@@ -13,42 +14,65 @@ const designs = [
     name: "LOGO",
     img: "/logo.png",
   },
+  {
+    number: "3",
+    name: "VINYL",
+    img: "/tbd.png",
+  },
+  {
+    number: "4",
+    name: "PROGRAMMABOEKJE",
+    img: "/tbd.png",
+  },
+  {
+    number: "5",
+    name: "CAMPAGNEBEELD",
+    img: "/tbd.png",
+  },
+  {
+    number: "6",
+    name: "BOEKCOVERS",
+    img: "/tbd.png",
+  },
 ];
 
-// const photos = [
-//   {
-//     key: "1",
-//     name: "COMPOSITIE EITJES",
-//     img: "https://avatar.vercel.sh/jack",
-//   },
-//   {
-//     key: "2",
-//     name: "stoel",
-//     img: "https://avatar.vercel.sh/jill",
-//   },
-//   {
-//     key: "3",
-//     name: "mandarijn",
-//     img: "https://avatar.vercel.sh/john",
-//   },
-//   {
-//     key: "4",
-//     name: "eitjes",
-//     img: "https://avatar.vercel.sh/jane",
-//   },
-//   {
-//     key: "5",
-//     name: "stoel",
-//     img: "https://avatar.vercel.sh/jenny",
-//   },
-//   {
-//     key: "6",
-//     name: "mandarijn",
-//     img: "https://avatar.vercel.sh/james",
-//   },
-// ];
+const photos = [
+  {
+    number: "1",
+    name: "BARCELONA",
+    img: "/tbd.png",
+  },
+  {
+    number: "2",
+    name: "PORTRETTEN",
+    img: "/tbd.png",
+  },
+  {
+    number: "3",
+    name: "DAGBOEKNOTITIES",
+    img: "/tbd.png",
+  },
+  {
+    number: "4",
+    name: "STOEL UIT HABITAT",
+    img: "/tbd.png",
+  },
+  {
+    number: "5",
+    name: "STUDIOPORTRET",
+    img: "/tbd.png",
+  },
+  {
+    number: "6",
+    name: "COMPOSITIE EITJES",
+    img: "/eitjes.png",
+  }
+]
 
 const Home = () => {
+
+  const navigate = useNavigate();
+
   return (
     <Header>
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
@@ -71,10 +95,10 @@ const Home = () => {
       </div>
       <div className="mt-32 overflow-hidden">
         <h2 className="ml-24 text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
-        <div className="flex mt-12 ml-10 items-end">
+        <button onClick={() => {navigate('/design')}} className="flex mt-12 ml-10 items-end">
           <img src="/portfolio_icon_green.svg" alt="" />
-          <h3 className="text-3xl font-ivyMode -ml-6">DESIGN</h3>
-        </div>
+          <h3 className="text-3xl font-ivyMode -ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">DESIGN</h3>
+        </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
             {designs.map((review) => (
@@ -84,19 +108,19 @@ const Home = () => {
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
           <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
         </div>
-        <div className="flex mt-12 ml-10 items-end">
+        <button onClick={() => {navigate('/fotografie')}} className="flex mt-12 ml-10 items-end">
           <img src="/portfolio_icon_green.svg" alt="" />
-          <h3 className="text-3xl font-ivyMode -ml-6">FOTOGRAFIE</h3>
-        </div>
-        {/* <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
+          <h3 className="text-3xl font-ivyMode -ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-3">FOTOGRAFIE</h3>
+        </button>
+        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
             {photos.map((review) => (
-              <ReviewCard key={review.key} {...review} />
+              <ReviewCard key={review.number} {...review} />
             ))}
           </Marquee>
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
           <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
-        </div> */}
+        </div>
       </div>
     </Header>  
   )

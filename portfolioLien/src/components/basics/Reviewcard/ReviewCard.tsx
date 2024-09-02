@@ -8,7 +8,7 @@ export const ReviewCard = ({
 }) => {
   return (
     <figure
-      className="relative w-96 h-48 cursor-pointer overflow-hidden bg-black -z-20"
+      className="relative w-96 h-48 overflow-hidden bg-black -z-20"
     >
       <img className="w-full h-full absolute -z-10" alt="" src={img} />
       <div className="grid place-items-center w-full h-full">

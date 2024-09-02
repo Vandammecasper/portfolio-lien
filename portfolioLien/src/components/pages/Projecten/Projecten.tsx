@@ -67,7 +67,7 @@ const Projecten = () => {
     {
       number: "6",
       name: "COMPOSITIE EITJES",
-      img: "/eitjes.png",
+      img: "/eitjes_fotografie.png",
     }
   ]
 
