@@ -75,7 +75,7 @@ const Projecten = () => {
   if(title === "DESIGN"){
     return (
       <Header>
-        <h1 className="text-6xl font-ivyMode font-bold text-black mt-20 ml-20">DESIGNS</h1>
+        <h1 className="text-6xl font-ivyMode font-bold text-black mt-20 ml-20">DESIGN</h1>
         <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-40 mt-64 -z-20"/>
         <div className="grid grid-cols-3 mx-20 mt-20 gap-10">
           {designs.map((design) => (
