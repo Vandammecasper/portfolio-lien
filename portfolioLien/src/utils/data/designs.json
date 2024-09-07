@@ -1,0 +1,64 @@
+{
+  "designs": [
+    {
+      "number": "1",
+      "type": "design",
+      "name": "FILMPOSTER",
+      "roulette": "/filmposter_roulette.png",
+      "projects": "/filmposter_design.png",
+      "details": "/filmposter.png",
+      "align": "vertical",
+      "description": "Bij deze opdracht moesten we een filmposter maken over een film van Tim Burton. Ik koos voor de film 'Miss Peregrine's home for peculair childeren'. Op de poster zie je de schoenen van het personage Emma Bloom, deze draagt ze zodat ze niet zou wegvliegen omdat ze zo licht is."
+    },
+    {
+      "number": "2",
+      "type": "design",
+      "name": "LOGO",
+      "roulette": "/logo_roulette.png",
+      "projects": "/logo_design.png",
+      "details": "/logo.png",
+      "align": "vertical",
+      "description": "Bij deze opdracht was het de bedoeling om een logo te ontwerpen voor een bedrijf en een naam die we uit een beperkte lijst moesten selecteren. Ik koos voor de naam Rinkka voor een tapasbar. In het logo zie je een versimpelde versie van een olijftak, dit omdat olijven iets typisch zijn voor de spaanse keuken en dus vaak ook te vinden zijn in tapasbarren."
+    },
+    {
+      "number": "3",
+      "type": "design",
+      "name": "VINYL",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "detail": "/tbd.png",
+      "align": "vertical",
+      "description": ""
+    },
+    {
+      "number": "4",
+      "type": "design",
+      "name": "PROGRAMMABOEKJE",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "detail": "/tbd.png",
+      "align": "vertical",
+      "description": ""
+    },
+    {
+      "number": "5",
+      "type": "design",
+      "name": "CAMPAGNEBEELD",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "detail": "/tbd.png",
+      "align": "vertical",
+      "description": ""
+    },
+    {
+      "number": "6",
+      "type": "design",
+      "name": "BOEKCOVERS",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "detail": "/tbd.png",
+      "align": "vertical",
+      "description": ""
+    }
+  ]
+}

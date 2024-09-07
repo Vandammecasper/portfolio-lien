@@ -1,0 +1,64 @@
+{
+  "photos": [
+    {
+      "number": "1",
+      "type": "photo",
+      "name": "BARCELONA",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "details": "/tbd.png",
+      "align": "horizontal",
+      "description": ""
+    },
+    {
+      "number": "2",
+      "type": "photo",
+      "name": "PORTRETTEN",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "details": "/tbd.png",
+      "align": "horizontal",
+      "description": ""
+    },
+    {
+      "number": "3",
+      "type": "photo",
+      "name": "DAGBOEKNOTITIES",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "details": "/tbd.png",
+      "align": "horizontal",
+      "description": ""
+    },
+    {
+      "number": "4",
+      "type": "photo",
+      "name": "STOEL UIT HABITAT",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "details": "/tbd.png",
+      "align": "horizontal",
+      "description": ""
+    },
+    {
+      "number": "5",
+      "type": "photo",
+      "name": "STUDIOPORTRET",
+      "roulette": "/tbd.png",
+      "projects": "/tbd.png",
+      "details": "/tbd.png",
+      "align": "horizontal",
+      "description": ""
+    },
+    {
+      "number": "6",
+      "type": "photo",
+      "name": "COMPOSITIE EITJES",
+      "roulette": "/eitjes_roulette.png",
+      "projects": "/eitjes_fotografie.png",
+      "details": "/eitjes.png",
+      "align": "horizontal",
+      "description": "We moesten een compositie van enkele eitjes fotograferen voor een schoolopdracht."
+    }
+  ]
+}

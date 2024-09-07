@@ -2,72 +2,8 @@ import { useNavigate } from "react-router-dom";
 import Header from "../../basics/Header/Header";
 import Marquee from "../../basics/Marquee/Marquee";
 import { ReviewCard } from "../../basics/Reviewcard/ReviewCard";
-
-const designs = [
-  {
-    number: "1",
-    name: "FILMPOSTER",
-    img: "/filmposter.png",
-  },
-  {
-    number: "2",
-    name: "LOGO",
-    img: "/logo.png",
-  },
-  {
-    number: "3",
-    name: "VINYL",
-    img: "/tbd.png",
-  },
-  {
-    number: "4",
-    name: "PROGRAMMABOEKJE",
-    img: "/tbd.png",
-  },
-  {
-    number: "5",
-    name: "CAMPAGNEBEELD",
-    img: "/tbd.png",
-  },
-  {
-    number: "6",
-    name: "BOEKCOVERS",
-    img: "/tbd.png",
-  },
-];
-
-const photos = [
-  {
-    number: "1",
-    name: "BARCELONA",
-    img: "/tbd.png",
-  },
-  {
-    number: "2",
-    name: "PORTRETTEN",
-    img: "/tbd.png",
-  },
-  {
-    number: "3",
-    name: "DAGBOEKNOTITIES",
-    img: "/tbd.png",
-  },
-  {
-    number: "4",
-    name: "STOEL UIT HABITAT",
-    img: "/tbd.png",
-  },
-  {
-    number: "5",
-    name: "STUDIOPORTRET",
-    img: "/tbd.png",
-  },
-  {
-    number: "6",
-    name: "COMPOSITIE EITJES",
-    img: "/eitjes.png",
-  }
-]
+import designs from "../../../utils/data/designs.json";
+import photos from "../../../utils/data/photos.json";
 
 const Home = () => {
 
@@ -101,7 +37,7 @@ const Home = () => {
         </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
-            {designs.map((review) => (
+            {designs.designs.map((review) => (
               <ReviewCard key={review.number} {...review} />
             ))}
           </Marquee>
@@ -114,7 +50,7 @@ const Home = () => {
         </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
-            {photos.map((review) => (
+            {photos.photos.map((review) => (
               <ReviewCard key={review.number} {...review} />
             ))}
           </Marquee>
