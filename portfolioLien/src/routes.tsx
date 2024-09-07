@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 import Projecten from "./components/pages/Projecten/Projecten";
 import VerticalDetail from "./components/pages/VerticalDetail/VerticalDetail";
+import HorizontalDetail from "./components/pages/HorizontalDetail/HorizontalDetail";
 
 const router = createBrowserRouter([
     {
@@ -20,10 +21,10 @@ const router = createBrowserRouter([
         path: "/detail/:project/vertical/:name",
         element: <VerticalDetail />
     },
-    // {
-    //     path: "/detail/horizontal/:name",
-    //     element: <HorizontalDetail />
-    // }
+    {
+        path: "/detail/:project/horizontal/:name",
+        element: <HorizontalDetail />
+    }
 ])
 
 export default router
