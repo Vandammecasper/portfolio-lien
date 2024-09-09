@@ -24,8 +24,8 @@
       "number": "3",
       "type": "design",
       "name": "VINYL",
-      "roulette": "/tbd.png",
-      "projects": "/tbd.png",
+      "roulette": "/vinyl_roulette.png",
+      "projects": "/vinyl_design.png",
       "detail": "/tbd.png",
       "align": "vertical",
       "description": ""
@@ -34,8 +34,8 @@
       "number": "4",
       "type": "design",
       "name": "PROGRAMMABOEKJE",
-      "roulette": "/tbd.png",
-      "projects": "/tbd.png",
+      "roulette": "/programmaboekje_roulette.png",
+      "projects": "/programmaboekje_design.png",
       "detail": "/tbd.png",
       "align": "vertical",
       "description": ""
@@ -44,8 +44,8 @@
       "number": "5",
       "type": "design",
       "name": "CAMPAGNEBEELD",
-      "roulette": "/tbd.png",
-      "projects": "/tbd.png",
+      "roulette": "/campagnebeeld_roulette.png",
+      "projects": "/campagnebeeld_design.png",
       "detail": "/tbd.png",
       "align": "vertical",
       "description": ""
@@ -54,8 +54,8 @@
       "number": "6",
       "type": "design",
       "name": "BOEKCOVERS",
-      "roulette": "/tbd.png",
-      "projects": "/tbd.png",
+      "roulette": "/boekcovers_roulette.png",
+      "projects": "/boekcovers_design.png",
       "detail": "/tbd.png",
       "align": "vertical",
       "description": ""
