@@ -26,9 +26,9 @@
       "name": "VINYL",
       "roulette": "/vinyl_roulette.png",
       "projects": "/vinyl_design.png",
-      "detail": "/tbd.png",
+      "details": "/vinyl.png",
       "align": "vertical",
-      "description": ""
+      "description": "Bij deze opdracht was het de bedoeling om een plaat te ontwerpen voor een opgegeven album van een artist. Dit gaat zowel over de buitenhoes, binnenhoes als het label."
     },
     {
       "number": "4",
@@ -36,9 +36,9 @@
       "name": "PROGRAMMABOEKJE",
       "roulette": "/programmaboekje_roulette.png",
       "projects": "/programmaboekje_design.png",
-      "detail": "/tbd.png",
+      "details": "/programmaboekje.png",
       "align": "vertical",
-      "description": ""
+      "description": "Bij deze opdracht moesten we de layout van een folder voorzien voor het programma van de studioskoop. Ik koos ervoor om met een grijs paarse donkere tint te werken in combinatie met fel rood voor de accenten."
     },
     {
       "number": "5",
@@ -46,9 +46,9 @@
       "name": "CAMPAGNEBEELD",
       "roulette": "/campagnebeeld_roulette.png",
       "projects": "/campagnebeeld_design.png",
-      "detail": "/tbd.png",
+      "details": "/campagnebeeld.png",
       "align": "vertical",
-      "description": ""
+      "description": "Bij deze opdracht moesten we een campagnebeeld ontwerpen voor een sportevenment. Ik koos ervoor om een campagnebeeld te maken voor de 'World cup Horseball'. Ik heb gewerkt met de kleuren van de franse vlag aangezien het evenement plaats vond in Frankrijk. Verder wou ik een zeer clean beeld en koos ik ervoor om de illustratie zo simpel mogelijk te houden."
     },
     {
       "number": "6",
@@ -56,9 +56,9 @@
       "name": "BOEKCOVERS",
       "roulette": "/boekcovers_roulette.png",
       "projects": "/boekcovers_design.png",
-      "detail": "/tbd.png",
-      "align": "vertical",
-      "description": ""
+      "details": "/boekcovers.png",
+      "align": "horizontal",
+      "description": "In deze opdracht was het de bedoeling om een reeks van 3 typografische boekcovers te ontwerpen. Ik koos voor de titels 'Een weeffout in onze sterren', 'Spotgaai' en 'De labyrint renner'. Bij 'Een weeffout in onze sterren' hebt ik de letters van 'sterren' in elkaar verweven en een R gespiegeld. Bij 'Spotgaai' heb ik ervoor gezorgd dat er een visuele spot komt in het midden van het boek door de letters van 'spot' steeds kleiner te maken en de A's van 'gaai' naar het midden te richten. Bij 'De labyrint renner' heb ik een labyrint in de N getekend."
     }
   ]
 }

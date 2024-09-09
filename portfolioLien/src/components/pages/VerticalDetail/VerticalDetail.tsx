@@ -9,7 +9,7 @@ const VerticalDetail = () => {
   const location = useLocation();
   const path = location.pathname.split('/');
   const project = path[2];
-  const name = path[4];
+  const name = decodeURIComponent(path[4]);
   let design;
   let photo;
 
@@ -35,14 +35,14 @@ const VerticalDetail = () => {
     if(photo)
     return (
       <Header>
-        <div className="flex">
-          <div className="mt-20 ml-20">
+        <div className="flex px-20 mt-20 gap-20">
+          <div className="w-1/3">
             <h1 className="text-5xl font-ivyMode font-bold overflow-hidden text-black ">{photo.name}</h1>
-            <p className="text-xl font-ivyMode text-black mt-6">{photo.description}</p>
+            <p className="text-2xl text-black mt-6">{photo.description}</p>
           </div>
-          <div>
-            <img src={photo.details} alt="" />
-            <img src="/portfolio_icon_green.svg" alt="" />
+          <div className="flex flex-col items-end">
+            <img src={photo.details} alt="" className="h-5/6 mt-20"/>
+            <img src="/portfolio_icon_green.svg" alt="" className="h-32 -mt-16 -mr-16"/>
           </div>
         </div>
       </Header>

@@ -6,9 +6,9 @@
       "name": "BARCELONA",
       "roulette": "/barcelona_roulette.png",
       "projects": "/barcelona_fotografie.png",
-      "details": "/tbd.png",
-      "align": "horizontal",
-      "description": ""
+      "details": "/barcelona.png",
+      "align": "vertical",
+      "description": "Tijdens onze studiereis naar Barcelona moesten we foto's trekken over de stad in weerspiegelingen of door ramen."
     },
     {
       "number": "2",
@@ -16,9 +16,9 @@
       "name": "PORTRETTEN",
       "roulette": "/portretten_roulette.png",
       "projects": "/portretten_fotografie.png",
-      "details": "/tbd.png",
-      "align": "horizontal",
-      "description": ""
+      "details": "/portretten.png",
+      "align": "vertical",
+      "description": "We moesten 3 portretten trekken, waarvan 1 zwart-wit."
     },
     {
       "number": "3",
@@ -26,9 +26,9 @@
       "name": "DAGBOEKNOTITIES",
       "roulette": "/dagboeknotities_roulette.png",
       "projects": "/dagboeknotities_fotografie.png",
-      "details": "/tbd.png",
-      "align": "horizontal",
-      "description": ""
+      "details": "/dagboeknotities.png",
+      "align": "vertical",
+      "description": "Gedurende het gehele semester moesten we foto's trekken in ons dagdagelijkse leven. Op het einde van het semester moesten we hier 20 foto's uitkiezen."
     },
     {
       "number": "4",
@@ -36,9 +36,9 @@
       "name": "STOEL UIT HABITAT",
       "roulette": "/stoeluithabitat_roulette.png",
       "projects": "/stoeluithabitat_fotografie.png",
-      "details": "/tbd.png",
-      "align": "horizontal",
-      "description": ""
+      "details": "/stoeluithabitat.png",
+      "align": "vertical",
+      "description": "We moesten een stoel uit zijn habitat halen en fotograferen."
     },
     {
       "number": "5",
@@ -46,9 +46,9 @@
       "name": "STUDIOPORTRET",
       "roulette": "/studioportret_roulette.png",
       "projects": "/studioportret_fotografie.png",
-      "details": "/tbd.png",
-      "align": "horizontal",
-      "description": ""
+      "details": "/studioportret.png",
+      "align": "vertical",
+      "description": "We moesten een bestaand portret nabootsen in de fotostudio."
     },
     {
       "number": "6",
