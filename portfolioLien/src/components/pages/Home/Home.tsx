@@ -14,7 +14,7 @@ const Home = () => {
     <Header>
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
         <div className="leading-tight place-self-center w-1/2">
-          <h1 className="text-primary text-11xl 2xl:text-12xl font-ivyMode font-bold">Hallo,</h1>
+          <h1 className="text-primary text-start text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-2">Hallo,</h1>
           <TypingAnimation className="text-5xl 2xl:text-6xl font-ivyMode font-thin text-start" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce" />
