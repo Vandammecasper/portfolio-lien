@@ -10,7 +10,7 @@ const Header = ({children}: PropsInterface) => {
   const navigate = useNavigate(); 
 
   return (
-    <div className="w-full overflow-x-hidden">
+    <div className="w-full overflow-x-hidden mb-20">
       <div className="h-20 w-full bg-primary flex justify-between items-center px-20">
         <button onClick={() => {
                 navigate('/');
