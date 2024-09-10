@@ -20,7 +20,7 @@ const HorizontalDetail = () => {
           <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
           <p className="text-2xl text-black mt-6">{design.description}</p>
           <div className="flex flex-col items-end">
-            <img src={design.details} alt="" className="h-5/6 mt-8"/>
+            <img src={design.details} alt="" className="h-100 w-100vh mt-8"/>
             <img src="/portfolio_icon_green.svg" alt="" className="h-32 -mt-16 -mr-16"/>
           </div>
         </div>
@@ -35,7 +35,7 @@ const HorizontalDetail = () => {
           <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
           <p className="text-2xl text-black mt-6">{photo.description}</p>
           <div className="flex flex-col items-end">
-            <img src={photo.details} alt="" className="h-5/6 mt-8"/>
+            <img src={photo.details} alt="" className="h-100 w-100vh mt-8"/>
             <img src="/portfolio_icon_green.svg" alt="" className="h-32 -mt-16 -mr-16"/>
           </div>
         </div>
