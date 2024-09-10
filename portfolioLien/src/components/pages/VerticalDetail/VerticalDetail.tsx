@@ -24,7 +24,7 @@ const VerticalDetail = () => {
             <p className="text-2xl text-black mt-6">{design.description}</p>
           </div>
           <div className="flex flex-col items-end">
-            <img src={design.details} alt="" className="h-5/6 mt-20"/>
+            <img src={design.details} alt="" className="h-5/6 w-full mt-20"/>
             <img src="/portfolio_icon_green.svg" alt="" className="h-32 -mt-16 -mr-16"/>
           </div>
         </div>
@@ -41,7 +41,7 @@ const VerticalDetail = () => {
             <p className="text-2xl text-black mt-6">{photo.description}</p>
           </div>
           <div className="flex flex-col items-end">
-            <img src={photo.details} alt="" className="h-5/6 mt-20"/>
+            <img src={photo.details} alt="" className="h-5/6 w-full mt-20"/>
             <img src="/portfolio_icon_green.svg" alt="" className="h-32 -mt-16 -mr-16"/>
           </div>
         </div>
