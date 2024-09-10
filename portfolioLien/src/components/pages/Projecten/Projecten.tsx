@@ -21,7 +21,7 @@ const Projecten = () => {
             >
               <img className="w-96 h-96 absolute -z-10" alt="" src={design.projects} />
               <button onClick={() => {navigate(`/detail/design/${design.align}/${design.name}`)}} className="grid cursor-pointer place-items-center z-20 w-96 h-96">
-                <h3 className="text-white text-4xl">{design.name}</h3>
+                <h3 className="text-white text-4xl transition ease-in-out delay-50 duration-300 hover:scale-110">{design.name}</h3>
               </button>
             </div>
           ))}
