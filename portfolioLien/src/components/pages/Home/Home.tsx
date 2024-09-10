@@ -21,8 +21,8 @@ const Home = () => {
       </div>
       <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-32 -mt-52" />
       <div className="w-screen h-screen bg-primary mt-24 overflow-hidden flex p-40 pr-56">
-        <h1 className="text-white text-10xl font-ivyMode font-bold -rotate-90 text-nowrap -ml-64 2xl:-ml-44">Over mij</h1>
-        <div className="-ml-40 2xl:-ml-56">
+        <h1 className="text-white text-10xl 2xl:text-11xl font-ivyMode font-bold -rotate-90 text-nowrap -ml-64 2xl:-ml-60">Over mij</h1>
+        <div className="-ml-40 2xl:-ml-72">
           <p className="text-xl 2xl:text-2xl -mt-16">Ik ben een 21 jarige <span className="font-bold">cross-media studente</span> aan de Arteveldehogeschool. Ik koos voor de afstudeerrichting ‘<span className="font-bold">Photo design</span>’. In deze afstudeerrichting fotograferen wij zelf alle foto’s die we in onze ontwerpen gebruiken. De keuze voor Photo design was voor mij vanzelfsprekend, omdat ik sinds jongs af aan altijd al een grote interesse heb gehad voor fotografie.</p>
           <p className="text-xl 2xl:text-2xl mt-8">In mijn opleiding krijgen we een goede variatie aan opdrachten. Dit gaat van het uitwerken van een hele reclamecampagne tot het ontwerpen van een vinyl plaat. We hebben leren werken met verschillende programma’s zoals de <span className="font-bold">adobe software</span>: Illustrator, Photoshop, Lightroom en InDesign. Voor het designen van websites gebruikten we <span className="font-bold">Figma en Webflow</span>.</p>
           <p className="text-xl 2xl:text-2xl mt-8 max-2xl:pr-40">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
