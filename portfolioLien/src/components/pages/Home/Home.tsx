@@ -4,6 +4,7 @@ import Marquee from "../../basics/Marquee/Marquee";
 import { ReviewCard } from "../../basics/Reviewcard/ReviewCard";
 import designs from "../../../utils/data/designs.json";
 import photos from "../../../utils/data/photos.json";
+import TypingAnimation from "../../basics/TypingAnimation/TypingAnimation";
 
 const Home = () => {
 
@@ -14,7 +15,7 @@ const Home = () => {
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
         <div className="leading-tight place-self-center">
           <h1 className="text-primary text-11xl 2xl:text-12xl font-ivyMode font-bold">Hallo,</h1>
-          <h2 className="text-5xl 2xl:text-6xl font-ivyMode">IK BEN LIEN VAN DEN ABBEELE</h2>
+          <TypingAnimation className="text-5xl 2xl:text-6xl font-ivyMode" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce" />
       </div>
