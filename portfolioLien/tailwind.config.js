@@ -25,6 +25,7 @@ export default {
       },
       height: {
         100: "30rem",
+        110: "42rem",
       },
       animation: {
         marquee: "marquee var(--duration) linear infinite",
