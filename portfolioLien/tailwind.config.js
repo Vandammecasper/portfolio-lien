@@ -10,10 +10,18 @@ export default {
     fontFamily: {
       ivyMode: ["IvyMode", "sans-serif"],
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1537px",
+    },
     extend: {
       fontSize:{
         '10xl': '10rem',
-        '11xl': '12rem'
+        '11xl': '12rem',
+        '12xl': '14rem',
       },
       animation: {
         marquee: "marquee var(--duration) linear infinite",
