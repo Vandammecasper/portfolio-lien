@@ -13,9 +13,9 @@ const Home = () => {
   return (
     <Header>
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
-        <div className="leading-tight place-self-center">
+        <div className="leading-tight place-self-center w-1/2">
           <h1 className="text-primary text-11xl 2xl:text-12xl font-ivyMode font-bold">Hallo,</h1>
-          <TypingAnimation className="text-5xl 2xl:text-6xl font-ivyMode" text="IK BEN LIEN VAN DEN ABBEELE"/>
+          <TypingAnimation className="text-5xl 2xl:text-6xl font-ivyMode font-thin text-start" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce" />
       </div>
