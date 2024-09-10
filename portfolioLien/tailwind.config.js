@@ -23,6 +23,9 @@ export default {
         '11xl': '12rem',
         '12xl': '14rem',
       },
+      height: {
+        100: "30rem",
+      },
       animation: {
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
