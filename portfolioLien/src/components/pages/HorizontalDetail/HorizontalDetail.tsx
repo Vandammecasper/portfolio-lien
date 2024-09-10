@@ -16,7 +16,7 @@ const HorizontalDetail = () => {
     if(design)
     return (
       <Header>
-        <div className="px-20 pr-80 mt-20 gap-20">
+        <div className="px-28 pr-80 mt-20 gap-20">
           <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
           <p className="text-2xl text-black mt-6">{design.description}</p>
           <div className="flex flex-col items-end">
@@ -31,7 +31,7 @@ const HorizontalDetail = () => {
     if(photo)
     return (
       <Header>
-        <div className="px-20 pr-80 mt-20 gap-20">
+        <div className="px-28 pr-80 mt-20 gap-20">
           <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
           <p className="text-2xl text-black mt-6">{photo.description}</p>
           <div className="flex flex-col items-end">

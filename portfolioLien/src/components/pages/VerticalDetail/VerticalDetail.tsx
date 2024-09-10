@@ -18,7 +18,7 @@ const VerticalDetail = () => {
     if(design)
     return (
       <Header>
-        <div className="flex justify-between px-24 pr-28 mt-20">
+        <div className="flex justify-between px-28 pr-32 mt-20">
           <div className="w-2/5">
             <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
             <p className="text-2xl text-black mt-6">{design.description}</p>
@@ -35,7 +35,7 @@ const VerticalDetail = () => {
     if(photo)
     return (
       <Header>
-        <div className="flex justify-between px-24 pr-28 mt-20">
+        <div className="flex justify-between px-28 pr-32 mt-20">
           <div className="w-2/5">
             <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
             <p className="text-2xl text-black mt-6">{photo.description}</p>

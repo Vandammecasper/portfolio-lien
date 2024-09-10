@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <Header>
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
-        <div className="leading-tight place-self-center w-1/2">
-          <h1 className="text-primary text-start text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-2">Hallo,</h1>
+        <div className="leading-tight place-self-center w-2/3 ml-64">
+          <h1 className="text-primary text-start text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-3">Hallo,</h1>
           <TypingAnimation className="text-5xl 2xl:text-6xl font-ivyMode font-thin text-start" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce" />
@@ -22,10 +22,10 @@ const Home = () => {
       <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-32 -mt-52" />
       <div className="w-screen h-screen bg-primary mt-24 overflow-hidden flex p-40 pr-56">
         <h1 className="text-white text-10xl 2xl:text-11xl font-ivyMode font-bold -rotate-90 text-nowrap -ml-64 2xl:-ml-60">Over mij</h1>
-        <div className="-ml-40 2xl:-ml-72 2xl:-mt-4">
+        <div className="-ml-40 2xl:-ml-72 2xl:self-center">
           <p className="text-xl 2xl:text-2xl -mt-16">Ik ben een 21 jarige <span className="font-bold">cross-media studente</span> aan de Arteveldehogeschool. Ik koos voor de afstudeerrichting ‘<span className="font-bold">Photo design</span>’. In deze afstudeerrichting fotograferen wij zelf alle foto’s die we in onze ontwerpen gebruiken. De keuze voor Photo design was voor mij vanzelfsprekend, omdat ik sinds jongs af aan altijd al een grote interesse heb gehad voor fotografie.</p>
           <p className="text-xl 2xl:text-2xl mt-8">In mijn opleiding krijgen we een goede variatie aan opdrachten. Dit gaat van het uitwerken van een hele reclamecampagne tot het ontwerpen van een vinyl plaat. We hebben leren werken met verschillende programma’s zoals de <span className="font-bold">adobe software</span>: Illustrator, Photoshop, Lightroom en InDesign. Voor het designen van websites gebruikten we <span className="font-bold">Figma en Webflow</span>.</p>
-          <p className="text-xl 2xl:text-2xl mt-8 max-2xl:pr-40">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
+          <p className="text-xl 2xl:text-2xl mt-8 max-2xl:pr-40 2xl:pr-44">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
           <p className="text-xl 2xl:text-2xl mt-8 pr-40 2xl:pr-48">Ik hoop om een leerrijke stage te vinden waar ik mezelf verder kan ontwikkelen, hopelijk tot snel!</p>
         </div>
       <img src="/portfolio_icon_white2.svg" alt="" className="absolute right-0 mt-32 2xl:mt-80"/>
