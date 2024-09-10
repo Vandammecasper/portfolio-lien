@@ -20,6 +20,7 @@ const Projecten = () => {
               key={design.number}
             >
               <img className="w-96 h-96 absolute -z-10" alt="" src={design.projects} />
+              <div onClick={() => {navigate(`/detail/design/${design.align}/${design.name}`)}} className="bg-black transition ease-in-out delay-50 duration-300 opacity-0 hover:opacity-30 absolute grid cursor-pointer place-items-center z-20 w-96 h-96"></div>
               <button onClick={() => {navigate(`/detail/design/${design.align}/${design.name}`)}} className="grid cursor-pointer place-items-center z-20 w-96 h-96">
                 <h3 className="text-white text-4xl transition ease-in-out delay-50 duration-300 hover:scale-110">{design.name}</h3>
               </button>

@@ -19,7 +19,7 @@ const HorizontalDetail = () => {
         <div className="px-28 pr-80 mt-20 gap-20">
           <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
           <p className="text-2xl text-black mt-6">{design.description}</p>
-          <div className="flex flex-col items-end">
+          <div className="flex flex-col items-end mt-4">
             <img src={design.details} alt="" className="h-100 w-100vh mt-8"/>
             <img src="/portfolio_icon_green.svg" alt="" className="h-32 -mt-16 -mr-16"/>
           </div>
