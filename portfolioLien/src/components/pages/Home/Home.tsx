@@ -25,10 +25,10 @@ const Home = () => {
         <div className="md:-ml-100 lg:-ml-80 xl:-ml-40 2xl:-ml-72 2xl:self-center">
           <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-2 lg:-mt-16">Ik ben een 21 jarige <span className="font-bold">cross-media studente</span> aan de Arteveldehogeschool. Ik koos voor de afstudeerrichting ‘<span className="font-bold">Photo design</span>’. In deze afstudeerrichting fotograferen wij zelf alle foto’s die we in onze ontwerpen gebruiken. De keuze voor Photo design was voor mij vanzelfsprekend, omdat ik sinds jongs af aan altijd al een grote interesse heb gehad voor fotografie.</p>
           <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8">In mijn opleiding krijgen we een goede variatie aan opdrachten. Dit gaat van het uitwerken van een hele reclamecampagne tot het ontwerpen van een vinyl plaat. We hebben leren werken met verschillende programma’s zoals de <span className="font-bold">adobe software</span>: Illustrator, Photoshop, Lightroom en InDesign. Voor het designen van websites gebruikten we <span className="font-bold">Figma en Webflow</span>.</p>
-          <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8 max-sm:pr-0 max-lg:pr-24 max-xl:pr-0 max-2xl:pr-40 2xl:pr-44">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
+          <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8 max-sm:pr-0 max-lg:pr-24 max-xl:pr-40 max-2xl:pr-40 2xl:pr-44">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
           <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8 mr-32 sm:pr-40 lg:pr-16 2xl:pr-48">Ik hoop om een leerrijke stage te vinden waar ik mezelf verder kan ontwikkelen, hopelijk tot snel!</p>
         </div>
-      <img src="/portfolio_icon_white2.svg" alt="" className="absolute max-lg:h-56 max-xl:h-72 right-0 -mt-44 md:mt-110 lg:mt-100 xl:mt-32 2xl:mt-64"/>
+      <img src="/portfolio_icon_white2.svg" alt="" className="absolute max-lg:h-56 max-xl:h-72 right-0 -mt-44 md:mt-110 lg:mt-80 xl:mt-32 2xl:mt-64"/>
       </div>
       <div className="mt-32 overflow-hidden">
         <h2 className="ml-24 text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
