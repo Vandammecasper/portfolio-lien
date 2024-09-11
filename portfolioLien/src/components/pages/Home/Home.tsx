@@ -34,7 +34,7 @@ const Home = () => {
         <h2 className="ml-10 lg:ml-24 text-2xl sm:text-4xl  md:text-5xl xl:text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
         <button onClick={() => {navigate('/design')}} className="flex mt-12 ml-10 items-end">
           <img src="/portfolio_icon_green.svg" alt="" className="h-12 sm:h-16 md:h-20" />
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">DESIGN</h3>
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-3 hover:sm:-translate-y-4 hover:scale-110 hover:-translate-x-3 hover:sm:-translate-x-4">DESIGN</h3>
         </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
