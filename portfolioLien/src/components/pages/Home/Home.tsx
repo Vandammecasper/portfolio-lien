@@ -31,10 +31,10 @@ const Home = () => {
       <img src="/portfolio_icon_white2.svg" alt="" className="absolute max-lg:h-56 max-xl:h-72 right-0 -mt-44 md:mt-110 lg:mt-80 xl:mt-32 2xl:mt-64"/>
       </div>
       <div className="mt-32 overflow-hidden">
-        <h2 className="ml-24 text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
+        <h2 className="ml-10 lg:ml-24 text-2xl sm:text-4xl  md:text-5xl xl:text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
         <button onClick={() => {navigate('/design')}} className="flex mt-12 ml-10 items-end">
-          <img src="/portfolio_icon_green.svg" alt="" />
-          <h3 className="text-3xl font-ivyMode -ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">DESIGN</h3>
+          <img src="/portfolio_icon_green.svg" alt="" className="h-12 sm:h-16 md:h-20" />
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">DESIGN</h3>
         </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
@@ -46,8 +46,8 @@ const Home = () => {
           <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
         </div>
         <button onClick={() => {navigate('/fotografie')}} className="flex mt-12 ml-10 items-end">
-          <img src="/portfolio_icon_green.svg" alt="" />
-          <h3 className="text-3xl font-ivyMode -ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-3">FOTOGRAFIE</h3>
+          <img src="/portfolio_icon_green.svg" alt="" className="h-12 sm:h-16 md:h-20" />
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">FOTOGRAFIE</h3>
         </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">
