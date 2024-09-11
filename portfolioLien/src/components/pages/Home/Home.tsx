@@ -13,13 +13,13 @@ const Home = () => {
   return (
     <Header>
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
-        <div className="leading-tight place-self-center w-2/3 ml-64">
-          <h1 className="text-primary text-start text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-3">Hallo,</h1>
-          <TypingAnimation className="text-5xl 2xl:text-6xl font-ivyMode font-thin text-start" text="IK BEN LIEN VAN DEN ABBEELE"/>
+        <div className="leading-tight place-self-center w-4/5 sm:w-2/3 ml-6 sm:ml-28 lg:ml-64">
+          <h1 className="text-primary text-start text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-2 sm:-ml-3">Hallo,</h1>
+          <TypingAnimation className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-ivyMode font-thin text-start" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce" />
       </div>
-      <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-32 -mt-52" />
+      <img src="/portfolio_icon_green.svg" alt="" className="absolute h-64 sm:h-80 lg:h-96 -ml-24 sm:-ml-32 -mt-28 sm:-mt-44 lg:-mt-52" />
       <div className="w-screen h-screen bg-primary mt-24 overflow-hidden flex p-40 pr-56">
         <h1 className="text-white text-10xl 2xl:text-11xl font-ivyMode font-bold -rotate-90 text-nowrap -ml-64 2xl:-ml-60">Over mij</h1>
         <div className="-ml-40 2xl:-ml-72 2xl:self-center">

@@ -11,17 +11,17 @@ const Header = ({children}: PropsInterface) => {
 
   return (
     <div className="w-full overflow-x-hidden mb-20">
-      <div className="h-20 w-full bg-primary flex justify-between items-center px-20">
+      <div className="h-20 w-full bg-primary flex justify-between items-center px-4 sm:px-20">
         <button onClick={() => {
                 navigate('/');
-              }} className="text-3xl">HOME</button>
-        <div className="flex gap-20">
+              }} className="text-xl sm:text-3xl">HOME</button>
+        <div className="flex gap-8 sm:gap-12 md:gap-20">
           <button onClick={() => {
                 navigate('/design');
-              }} className="text-3xl">DESIGN</button>
+              }} className="text-xl sm:text-3xl">DESIGN</button>
           <button onClick={() => {
                 navigate('/fotografie');
-              }} className="text-3xl">FOTOGRAFIE</button>
+              }} className="text-xl sm:text-3xl">FOTOGRAFIE</button>
         </div>
       </div>
       {children}
