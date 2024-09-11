@@ -19,16 +19,16 @@ const Home = () => {
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce place-self-center" />
       </div>
-      <img src="/portfolio_icon_green.svg" alt="" className="absolute h-64 sm:h-80 lg:h-96 -ml-24 sm:-ml-32 -mt-28 sm:-mt-44 lg:-mt-52" />
-      <div className="w-screen h-screen bg-primary mt-24 overflow-hidden flex p-40 pr-56">
-        <h1 className="text-white text-10xl 2xl:text-11xl font-ivyMode font-bold -rotate-90 text-nowrap -ml-64 2xl:-ml-60">Over mij</h1>
-        <div className="-ml-40 2xl:-ml-72 2xl:self-center">
-          <p className="text-xl 2xl:text-2xl -mt-16">Ik ben een 21 jarige <span className="font-bold">cross-media studente</span> aan de Arteveldehogeschool. Ik koos voor de afstudeerrichting ‘<span className="font-bold">Photo design</span>’. In deze afstudeerrichting fotograferen wij zelf alle foto’s die we in onze ontwerpen gebruiken. De keuze voor Photo design was voor mij vanzelfsprekend, omdat ik sinds jongs af aan altijd al een grote interesse heb gehad voor fotografie.</p>
-          <p className="text-xl 2xl:text-2xl mt-8">In mijn opleiding krijgen we een goede variatie aan opdrachten. Dit gaat van het uitwerken van een hele reclamecampagne tot het ontwerpen van een vinyl plaat. We hebben leren werken met verschillende programma’s zoals de <span className="font-bold">adobe software</span>: Illustrator, Photoshop, Lightroom en InDesign. Voor het designen van websites gebruikten we <span className="font-bold">Figma en Webflow</span>.</p>
-          <p className="text-xl 2xl:text-2xl mt-8 max-2xl:pr-40 2xl:pr-44">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
-          <p className="text-xl 2xl:text-2xl mt-8 pr-40 2xl:pr-48">Ik hoop om een leerrijke stage te vinden waar ik mezelf verder kan ontwikkelen, hopelijk tot snel!</p>
+      <img src="/portfolio_icon_green.svg" alt="" className="absolute h-64 sm:h-80 lg:h-96 -ml-24 sm:-ml-32 -mt-28 sm:-mt-44 lg:-mt-52 -z-10" />
+      <div className="w-screen h-screen bg-primary mt-24 overflow-hidden md:flex md:p-40 px-8 md:pr-12 lg:pr-20 xl:pr-56">
+        <h1 className="text-white text-6xl sm:text-8xl md:text-9xl lg:text-10xl 2xl:text-11xl font-ivyMode font-bold md:-rotate-90 text-nowrap max-lg:mt-4 z-10 md:-ml-52 lg:-ml-80 xl:-ml-64 2xl:-ml-60">Over mij</h1>
+        <div className="md:-ml-64 lg:-ml-56 xl:-ml-40 2xl:-ml-72 2xl:self-center">
+          <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-2 md:-mt-32 lg:-mt-16">Ik ben een 21 jarige <span className="font-bold">cross-media studente</span> aan de Arteveldehogeschool. Ik koos voor de afstudeerrichting ‘<span className="font-bold">Photo design</span>’. In deze afstudeerrichting fotograferen wij zelf alle foto’s die we in onze ontwerpen gebruiken. De keuze voor Photo design was voor mij vanzelfsprekend, omdat ik sinds jongs af aan altijd al een grote interesse heb gehad voor fotografie.</p>
+          <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8">In mijn opleiding krijgen we een goede variatie aan opdrachten. Dit gaat van het uitwerken van een hele reclamecampagne tot het ontwerpen van een vinyl plaat. We hebben leren werken met verschillende programma’s zoals de <span className="font-bold">adobe software</span>: Illustrator, Photoshop, Lightroom en InDesign. Voor het designen van websites gebruikten we <span className="font-bold">Figma en Webflow</span>.</p>
+          <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8 max-sm:pr-0 max-lg:pr-24 max-2xl:pr-40 2xl:pr-44">In mijn vrije tijd ben ik ook vaak te vinden met mijn camera in de hand of op het hockeyveld. Momenteel ben ik bezig aan mijn derde jaar als hockeyspeler en mijn eerste jaar bij de eerste dames ploeg van Lokeren.</p>
+          <p className="sm:text-lg lg:text-xl 2xl:text-2xl mt-3 sm:mt-4 lg:mt-8 mr-32 sm:pr-40 2xl:pr-48">Ik hoop om een leerrijke stage te vinden waar ik mezelf verder kan ontwikkelen, hopelijk tot snel!</p>
         </div>
-      <img src="/portfolio_icon_white2.svg" alt="" className="absolute right-0 mt-32 2xl:mt-80"/>
+      <img src="/portfolio_icon_white2.svg" alt="" className="absolute max-lg:h-56 max-xl:h-72 right-0 -mt-40 sm:-mt-36 md:mt-80 lg:mt-64 xl:mt-32 2xl:mt-80"/>
       </div>
       <div className="mt-32 overflow-hidden">
         <h2 className="ml-24 text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
