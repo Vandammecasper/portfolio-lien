@@ -27,6 +27,10 @@ export default {
         100: "30rem",
         110: "42rem",
       },
+      margin: {
+        100: "25rem",
+        110: "30rem",
+      },
       animation: {
         marquee: "marquee var(--duration) linear infinite",
         "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
