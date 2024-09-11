@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce" />
       </div>
-      <img src="/portfolio_icon_green.svg" alt="" className="absolute h-64 sm:h-80 lg:h-96 -ml-24 sm:-ml-32 -mt-28 sm:-mt-44 lg:-mt-52" />
+      <img src="/portfolio_icon_green.svg" alt="" className="absolute h-64 sm:h-80 lg:h-96 -ml-24 sm:-ml-32 -mt-28 sm:-mt-44 lg:-mt-52 justify-self-center" />
       <div className="w-screen h-screen bg-primary mt-24 overflow-hidden flex p-40 pr-56">
         <h1 className="text-white text-10xl 2xl:text-11xl font-ivyMode font-bold -rotate-90 text-nowrap -ml-64 2xl:-ml-60">Over mij</h1>
         <div className="-ml-40 2xl:-ml-72 2xl:self-center">
