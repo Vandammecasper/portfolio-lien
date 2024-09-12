@@ -18,14 +18,14 @@ const VerticalDetail = () => {
     if(design)
     return (
       <Header>
-        <div className="flex justify-between px-28 pr-32 mt-20">
-          <div className="w-2/5">
-            <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
-            <p className="text-2xl text-black mt-6">{design.description}</p>
+        <div className="flex max-sm:flex-col max-sm:items-center sm:justify-between px-8 lg:px-28 pr-10 lg:pr-32 mt-20">
+          <div className="sm:w-2/5">
+            <h1 className="text-2xl lg:text-3xl xl:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
+            <p className="text-lg lg:text-xl xl:text-2xl text-black mt-6 pr-4">{design.description}</p>
           </div>
-          <div className="flex flex-col items-end">
-            <img src={design.details} alt="" className="h-100 2xl:h-110 w-100vh mr-0.5"/>
-            <img src="/portfolio_icon_green.svg" alt="" className="h-24 -mt-12 -mr-12"/>
+          <div className="flex flex-col items-end max-sm:mt-8">
+            <img src={design.details} alt="" className="h-96 md:h-100 2xl:h-110 w-100vh mr-0.5"/>
+            <img src="/portfolio_icon_green.svg" alt="" className="h-16 lg:h-24 -mt-8 lg:-mt-12 -mr-8 lg:-mr-12"/>
           </div>
         </div>
       </Header>
@@ -35,14 +35,14 @@ const VerticalDetail = () => {
     if(photo)
     return (
       <Header>
-        <div className="flex justify-between px-28 pr-32 mt-20">
-          <div className="w-2/5">
-            <h1 className="text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
-            <p className="text-2xl text-black mt-6">{photo.description}</p>
+        <div className="flex max-sm:flex-col max-sm:items-center sm:justify-between px-8 lg:px-28 pr-10 lg:pr-32 mt-20">
+          <div className="sm:w-2/5">
+            <h1 className="text-2xl lg:text-3xl xl:text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
+            <p className="text-lg lg:text-xl xl:text-2xl text-black mt-6 pr-4">{photo.description}</p>
           </div>
-          <div className="flex flex-col items-end">
-            <img src={photo.details} alt="" className="h-100 2xl:h-110 w-100vh mr-0.5"/>
-            <img src="/portfolio_icon_green.svg" alt="" className="h-24 -mt-12 -mr-12"/>
+          <div className="flex flex-col items-end max-sm:mt-8">
+            <img src={photo.details} alt="" className="h-96 md:h-100 2xl:h-110 w-100vh mr-0.5"/>
+            <img src="/portfolio_icon_green.svg" alt="" className="h-16 lg:h-24 -mt-8 lg:-mt-12 -mr-8 lg:-mr-12"/>
           </div>
         </div>
       </Header>
