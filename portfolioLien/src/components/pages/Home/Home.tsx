@@ -17,7 +17,7 @@ const Home = () => {
           <h1 className="text-primary text-start text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-2 sm:-ml-3">Hallo,</h1>
           <TypingAnimation className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-ivyMode font-thin text-start mt-2" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
-        <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce ml-1/2 mr-1/2" />
+        {/* <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce place-self-center" /> */}
       </div>
       <img src="/portfolio_icon_green.svg" alt="" className="absolute h-64 sm:h-80 lg:h-96 -ml-24 sm:-ml-32 -mt-28 sm:-mt-44 lg:-mt-52 -z-10" />
       <div className="w-screen bg-primary mt-24 overflow-hidden md:flex md:p-40 px-8 md:pr-12 lg:pr-20 xl:pr-56 py-8 2xl:py-48">
