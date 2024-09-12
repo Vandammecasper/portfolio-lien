@@ -14,7 +14,7 @@ const Projecten = () => {
       <Header>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-ivyMode text-black mt-20 ml-8 lg:ml-20">DESIGN</h1>
         <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-40 mt-64 -z-20"/>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 mx-8 lg:mx-20 mt-8 sm:mt-16 md:mt-20 gap-6 sm:gap-10">
+        <div className="grid w-screen max-sm:justify-items-center sm:grid-cols-2 lg:grid-cols-3 sm:mx-8 lg:mx-20 mt-8 sm:mt-16 md:mt-20 gap-6 sm:gap-10">
           {designs.designs.map((design) => (
             <div
               key={design.number}
@@ -34,7 +34,7 @@ const Projecten = () => {
       <Header>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-ivyMode text-black mt-20 ml-8 lg:ml-20">FOTOGRAFIE</h1>
         <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-40 mt-64 -z-20"/>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 mx-8 lg:mx-20 mt-8 sm:mt-16 md:mt-20 gap-6 sm:gap-10">
+        <div className="grid w-screen max-sm:justify-items-center sm:grid-cols-2 lg:grid-cols-3 sm:mx-8 lg:mx-20 mt-8 sm:mt-16 md:mt-20 gap-6 sm:gap-10">
           {photos.photos.map((photo) => (
             <div
               key={photo.number}
