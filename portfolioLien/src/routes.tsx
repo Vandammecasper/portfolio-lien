@@ -1,7 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "./components/pages/Home/Home";
 import Projecten from "./components/pages/Projecten/Projecten";
-import VerticalDetail from "./components/pages/VerticalDetail/VerticalDetail";
 import HorizontalDetail from "./components/pages/HorizontalDetail/HorizontalDetail";
 
 const router = createBrowserRouter([
@@ -18,11 +17,7 @@ const router = createBrowserRouter([
         element: <Projecten />
     },
     {
-        path: "/detail/:project/vertical/:name",
-        element: <VerticalDetail />
-    },
-    {
-        path: "/detail/:project/horizontal/:name",
+        path: "/detail/:project/:name",
         element: <HorizontalDetail />
     }
 ])

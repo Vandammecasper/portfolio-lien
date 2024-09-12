@@ -7,6 +7,21 @@
       "roulette": "/barcelona_roulette.png",
       "projects": "/barcelona_fotografie.png",
       "details": "/barcelona.png",
+      "detailPictures": [
+        "/Barcelona_VandenAbbeeleLien_20230322_19-68.png",
+        "/Barcelona_VandenAbbeeleLien_20230322_19-85.png",
+        "/Barcelona_VandenAbbeeleLien_20230322_19-86.png",
+        "Barcelona_VandenAbbeeleLien_20230322_19-115.png",
+        "/Barcelona_VandenAbbeeleLien_20230323_19.png",
+        "/Barcelona_VandenAbbeeleLien_20230323_19-5.png",
+        "/Barcelona_VandenAbbeeleLien_20230323_19-6.png",
+        "/Barcelona_VandenAbbeeleLien_20230323_19-8.png",
+        "/Barcelona_VandenAbbeeleLien_20230323_19-15.png",
+        "/Barcelona_VandenAbbeeleLien_20230323_19-34.png",
+        "/Barcelona_VandenAbbeeleLien_20230324_19-8.png",
+        "/Barcelona_VandenAbbeeleLien_20230324_19-13.png",
+        "/Barcelona_VandenAbbeeleLien_20230324_19-23.png"
+      ],
       "align": "vertical",
       "description": "Tijdens onze studiereis naar Barcelona moesten we foto's trekken over de stad in weerspiegelingen of door ramen."
     },
@@ -17,6 +32,11 @@
       "roulette": "/portretten_roulette.png",
       "projects": "/portretten_fotografie.png",
       "details": "/portretten.png",
+      "detailPictures": [
+        "/F06_VandenAbbeeleLien_20230513_23-31.jpg",
+        "/06_VandenAbbeeleLien_20230529_28-126.jpg",
+        "/F06_VandenAbbeeleLien_20230413_17-12.jpg"
+      ],
       "align": "vertical",
       "description": "We moesten 3 portretten trekken, waarvan 1 zwart-wit."
     },
@@ -27,6 +47,28 @@
       "roulette": "/dagboeknotities_roulette.png",
       "projects": "/dagboeknotities_fotografie.png",
       "details": "/dagboeknotities.png",
+      "detailPictures": [
+        "/LF01_VandenAbbeeleLien_20230223_29-4.jpg",
+        "/LF01_VandenAbbeeleLien_20230224_29-8.jpg",
+        "/LF01_VandenAbbeeleLien_20230228_29-5.jpg",
+        "LF01_VandenAbbeeleLien_20230301_29-10.jpg",
+        "/LF01_VandenAbbeeleLien_20230307_29-3.jpg",
+        "/LF01_VandenAbbeeleLien_20230310_29-2.jpg",
+        "/LF01_VandenAbbeeleLien_20230315_29-7.jpg",
+        "/LF01_VandenAbbeeleLien_20230322_31-48.jpg",
+        "/LF01_VandenAbbeeleLien_20230324_31-5.jpg",
+        "/LF01_VandenAbbeeleLien_20230406_31-9.jpg",
+        "/LF01_VandenAbbeeleLien_20230407_31-28.jpg",
+        "/LF01_VandenAbbeeleLien_20230407_31-159.jpg",
+        "/LF01_VandenAbbeeleLien_20230409_31-9.jpg",
+        "/LF01_VandenAbbeeleLien_20230409_31-17.jpg",
+        "/LF01_VandenAbbeeleLien_20230411_31-19.jpg",
+        "/LF01_VandenAbbeeleLien_20230427_29.jpg",
+        "/LF01_VandenAbbeeleLien_20230502_29-13.jpg",
+        "/LF01_VandenAbbeeleLien_20230504_29-8.jpg",
+        "/LF01_VandenAbbeeleLien_20230506_29-4.jpg",
+        "/LF01_VandenAbbeeleLien_20230529_29-13.jpg"
+      ],
       "align": "vertical",
       "description": "Gedurende het gehele semester moesten we foto's trekken in ons dagdagelijkse leven. Op het einde van het semester moesten we hier 20 foto's uitkiezen."
     },
@@ -37,6 +79,10 @@
       "roulette": "/stoeluithabitat_roulette.png",
       "projects": "/stoeluithabitat_fotografie.png",
       "details": "/stoeluithabitat.png",
+      "detailPictures": [
+        "/stoeluithabitat.png",
+        "/stoeluithabitat.png"
+      ],
       "align": "vertical",
       "description": "We moesten een stoel uit zijn habitat halen en fotograferen."
     },
@@ -47,6 +93,10 @@
       "roulette": "/studioportret_roulette.png",
       "projects": "/studioportret_fotografie.png",
       "details": "/studioportret.png",
+      "detailPictures": [
+        "/studioportret.png",
+        "/studioportret.png"
+      ],
       "align": "vertical",
       "description": "We moesten een bestaand portret nabootsen in de fotostudio."
     },
@@ -57,6 +107,10 @@
       "roulette": "/eitjes_roulette.png",
       "projects": "/eitjes_fotografie.png",
       "details": "/eitjes.png",
+      "detailPictures": [
+        "/eitjes.png",
+        "/eitjes.png"
+      ],
       "align": "horizontal",
       "description": "We moesten een compositie van enkele eitjes fotograferen voor een schoolopdracht."
     }
