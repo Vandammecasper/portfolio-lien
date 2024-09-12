@@ -15,7 +15,7 @@ const Home = () => {
       <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
         <div className="leading-tight place-self-center w-4/5 sm:w-2/3 ml-6 sm:ml-28 lg:ml-64">
           <h1 className="text-primary text-start text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-2 sm:-ml-3">Hallo,</h1>
-          <TypingAnimation className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-ivyMode font-thin text-start mt-2" text="IK BEN LIEN VAN DEN ABBEELE"/>
+          <TypingAnimation className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-ivyMode font-thin text-start mt-4" text="IK BEN LIEN VAN DEN ABBEELE"/>
         </div>
         {/* <img src="/double_arrow.svg" alt="" className="absolute bottom-4 animate-bounce place-self-center" /> */}
       </div>
@@ -31,7 +31,7 @@ const Home = () => {
       <img src="/portfolio_icon_white2.svg" alt="" className="absolute max-sm:h-48 max-lg:h-56 max-xl:h-72 right-0 -mt-40 md:mt-110 lg:mt-80 xl:mt-32 2xl:mt-64"/>
       </div>
       <div className="mt-32 overflow-hidden">
-        <h2 className="ml-10 lg:ml-24 text-2xl sm:text-4xl max-sm:pr-10 md:text-5xl xl:text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
+        <h2 className="ml-10 lg:ml-24 text-xl sm:text-4xl max-sm:pr-10 md:text-5xl xl:text-6xl">BENIEUWD NAAR MIJN WERK?</h2>
         <button onClick={() => {navigate('/design')}} className="flex mt-12 ml-10 items-end">
           <img src="/portfolio_icon_green.svg" alt="" className="h-12 sm:h-16 md:h-20" />
           <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-3 hover:sm:-translate-y-4 hover:scale-110 hover:-translate-x-3 hover:sm:-translate-x-4">DESIGN</h3>
