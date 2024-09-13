@@ -23,8 +23,8 @@ const HorizontalDetail = () => {
     design = designs.designs.find(design => design.name === name)
     if(design)
     return (
-      <Header>
-        <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 mt-8 sm:mt-6 md:mt-2">
+      <div>
+        <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-14 sm:-mt-16">
           <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
             <p className="max-sm:text-sm">Terugkeren</p>
@@ -46,7 +46,7 @@ const HorizontalDetail = () => {
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
           <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
         </div>
-      </Header>
+      </div>
     );
   } else if (project === "photo") {
     photo = photos.photos.find(photo => photo.name === name)
