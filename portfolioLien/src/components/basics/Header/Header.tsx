@@ -8,29 +8,7 @@ interface PropsInterface {
 
 const Header = ({children}: PropsInterface) => {
 
-  const navigate = useNavigate(); 
-  const [showHeader, setShowHeader] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > lastScrollY) {
-        // Scrolling down
-        setShowHeader(false);
-      } else {
-        // Scrolling up
-        setShowHeader(true);
-      }
-      setLastScrollY(window.scrollY);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [lastScrollY]);
+  const navigate = useNavigate();
 
   return (
     <div className={`w-full overflow-x-hidden flex flex-col`}>
