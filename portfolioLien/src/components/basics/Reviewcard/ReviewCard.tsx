@@ -3,12 +3,10 @@ import { useNavigate } from "react-router-dom";
 export const ReviewCard = ({
   roulette,
   name,
-  align,
   type,
 }: {
   roulette: string;
   name: string;
-  align: string;
   type: string;
 }) => {
   const navigate = useNavigate();
