@@ -24,7 +24,7 @@ const HorizontalDetail = () => {
     if(design)
     return (
       <Header>
-        <div className="w-screen absolute pl-4 sm:pl-20 mt-4">
+        <div className="w-screen absolute pl-4 sm:pl-20 -mt-16">
           <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
             <p className="max-sm:text-sm">Terugkeren</p>
