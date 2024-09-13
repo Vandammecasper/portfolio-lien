@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <Header>
-      <div className="w-screen h-screen -mt-20 grid justify-items-center text-left">
+      <div className="w-screen h-screen -mt-40 grid justify-items-center text-left">
         <div className="leading-tight place-self-center w-4/5 sm:w-2/3 ml-6 sm:ml-28 lg:ml-64">
           <h1 className="text-primary text-start text-8xl md:text-9xl lg:text-10xl xl:text-11xl 2xl:text-12xl font-ivyMode font-bold -ml-2 sm:-ml-3">Hallo,</h1>
           <TypingAnimation className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-ivyMode font-thin text-start mt-4" text="IK BEN LIEN VAN DEN ABBEELE"/>

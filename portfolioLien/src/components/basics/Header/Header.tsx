@@ -1,4 +1,4 @@
-import {ReactNode} from "react";
+import {ReactNode, useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
 
 interface PropsInterface {
@@ -8,10 +8,32 @@ interface PropsInterface {
 const Header = ({children}: PropsInterface) => {
 
   const navigate = useNavigate(); 
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        // Scrolling down
+        setShowHeader(false);
+      } else {
+        // Scrolling up
+        setShowHeader(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
-    <div className="w-full overflow-x-hidden mb-20">
-      <div className="h-20 w-full bg-primary flex justify-between items-center px-4 sm:px-20">
+    <div className={`w-full overflow-x-hidden mb-20`}>
+      <div className={`h-20 w-full fixed z-40 bg-primary flex justify-between items-center px-4 sm:px-20 ${showHeader ? 'block' : 'hidden'}`}>
         <button onClick={() => {
                 navigate('/');
               }} className="text-xl sm:text-3xl">HOME</button>
@@ -24,7 +46,9 @@ const Header = ({children}: PropsInterface) => {
               }} className="text-xl sm:text-3xl">FOTOGRAFIE</button>
         </div>
       </div>
-      {children}
+      <div className="mt-40">
+        {children}
+      </div>
     </div>
   )
 };
