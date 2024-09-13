@@ -1,5 +1,6 @@
 import {ReactNode, useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
+import { Dock, DockIcon } from "../Docking/Docking";
 
 interface PropsInterface {
   children: ReactNode;
@@ -32,21 +33,21 @@ const Header = ({children}: PropsInterface) => {
   }, [lastScrollY]);
 
   return (
-    <div className={`w-full overflow-x-hidden mb-20`}>
-      <div className={`h-20 w-full fixed z-40 bg-primary flex justify-between items-center px-4 sm:px-20 ${showHeader ? 'block' : 'hidden'}`}>
-        <button onClick={() => {
-                navigate('/');
-              }} className="text-xl sm:text-3xl">HOME</button>
-        <div className="flex gap-8 sm:gap-12 md:gap-20">
-          <button onClick={() => {
-                navigate('/design');
-              }} className="text-xl sm:text-3xl">DESIGN</button>
-          <button onClick={() => {
-                navigate('/fotografie');
-              }} className="text-xl sm:text-3xl">FOTOGRAFIE</button>
-        </div>
+    <div className={`w-full overflow-x-hidden flex flex-col`}>
+      <div className="fixed self-center">
+        <Dock direction="middle" className="px-4 gap-4">
+          <DockIcon>
+            <button onClick={() => navigate('/')}>HOME</button>
+          </DockIcon>
+          <DockIcon>
+            <button onClick={() => navigate('/design')}>DESIGN</button>
+          </DockIcon>
+          <DockIcon>
+            <button onClick={() => navigate('/fotografie')}>FOTOGRAFIE</button>
+          </DockIcon>
+        </Dock>
       </div>
-      <div className="mt-40">
+      <div className="mt-16">
         {children}
       </div>
     </div>
