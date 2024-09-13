@@ -19,7 +19,10 @@ const HorizontalDetail = () => {
     return (
       <Header>
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
+          <div className="flex items-end">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
+            <img src="/portfolio_icon_green.svg" alt="" className="h-2.5 sm:h-3 lg:h-4 ml-1.5 max-sm:mb-0.5"/>
+          </div>
           <p className="text-lg sm:text-xl lg:text-2xl text-black mt-6">{design.description}</p>
         </div>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
@@ -39,7 +42,10 @@ const HorizontalDetail = () => {
     return (
       <Header>
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
+          <div className="flex items-end">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>
+            <img src="/portfolio_icon_green.svg" alt="" className="h-2.5 sm:h-3 lg:h-4 ml-1.5 max-sm:mb-0.5"/>
+          </div>
           <p className="text-lg sm:text-xl lg:text-2xl text-black mt-6">{photo.description}</p>
         </div>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
