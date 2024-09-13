@@ -24,10 +24,13 @@ const HorizontalDetail = () => {
     if(design)
     return (
       <Header>
-        <button onClick={handleGoBack} className="flex absolute ml-4 sm:ml-20 mt-4 items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
-          <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
-          <p className="max-sm:text-sm">Terugkeren</p>
-        </button>
+        <div className="w-screen absolute pl-4 sm:pl-20 mt-4">
+          <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
+            <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
+            <p className="max-sm:text-sm">Terugkeren</p>
+          </button>
+        </div>
+        
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8">
           <div className="flex items-end">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
