@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import Header from "../../basics/Header/Header";
 import designs from "../../../utils/data/designs.json";
 import photos from "../../../utils/data/photos.json";
@@ -8,16 +8,26 @@ import { PictureRoulette } from "../../basics/PictureRoulette/PictureRoulette";
 
 const HorizontalDetail = () => {
   const location = useLocation();
+  const navigate = useNavigate(); 
   const path = location.pathname.split('/');
   const project = path[2];
   const name = decodeURIComponent(path[3]);
   let design;
   let photo;
+
+  const handleGoBack = () => {
+    navigate(-1);
+  }
+
   if (project === "design") {
     design = designs.designs.find(design => design.name === name)
     if(design)
     return (
       <Header>
+        <button onClick={handleGoBack} className="flex absolute ml-4 sm:ml-20 mt-4 items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
+          <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
+          <p className="max-sm:text-sm">Terugkeren</p>
+        </button>
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8">
           <div className="flex items-end">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
@@ -41,6 +51,10 @@ const HorizontalDetail = () => {
     if(photo)
     return (
       <Header>
+        <button onClick={handleGoBack} className="flex absolute ml-20 mt-4 items-center justify-center gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
+          <img src="/arrow_left.svg" alt="" className="h-8 -ml-2"/>
+          <p>Terugkeren</p>
+        </button>
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8">
           <div className="flex items-end">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{photo.name}</h1>

@@ -15,7 +15,7 @@ export const ReviewCard = ({
   return (
     <button
       onClick={() => {
-        navigate(`/detail/${type}/${align}/${name}`);
+        navigate(`/detail/${type}/${name}`);
       }}
       className="relative w-80 sm:w-96 h-40 sm:h-48 overflow-hidden bg-black -z-20"
     >
