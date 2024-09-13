@@ -34,7 +34,7 @@ const Dock = React.forwardRef<HTMLDivElement, DockProps>(
     const mouseX = useMotionValue(Infinity);
  
     const renderChildren = () => {
-      return React.Children.map(children, (child: unknown) => {
+      return React.Children.map(children, (child: React.ReactElement) => {
         return React.cloneElement(child, {
           mouseX: mouseX,
           magnification: magnification,
