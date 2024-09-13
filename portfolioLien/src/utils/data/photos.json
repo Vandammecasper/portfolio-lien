@@ -79,10 +79,6 @@
       "roulette": "/stoeluithabitat_roulette.png",
       "projects": "/stoeluithabitat_fotografie.png",
       "details": "/stoeluithabitat.png",
-      "detailPictures": [
-        "/stoeluithabitat.png",
-        "/stoeluithabitat.png"
-      ],
       "align": "vertical",
       "description": "We moesten een stoel uit zijn habitat halen en fotograferen."
     },
@@ -93,10 +89,6 @@
       "roulette": "/studioportret_roulette.png",
       "projects": "/studioportret_fotografie.png",
       "details": "/studioportret.png",
-      "detailPictures": [
-        "/studioportret.png",
-        "/studioportret.png"
-      ],
       "align": "vertical",
       "description": "We moesten een bestaand portret nabootsen in de fotostudio."
     },
@@ -107,10 +99,6 @@
       "roulette": "/eitjes_roulette.png",
       "projects": "/eitjes_fotografie.png",
       "details": "/eitjes.png",
-      "detailPictures": [
-        "/eitjes.png",
-        "/eitjes.png"
-      ],
       "align": "horizontal",
       "description": "We moesten een compositie van enkele eitjes fotograferen voor een schoolopdracht."
     }

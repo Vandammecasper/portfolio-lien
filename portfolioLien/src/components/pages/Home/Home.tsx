@@ -36,7 +36,7 @@ const Home = () => {
           <img src="/portfolio_icon_green.svg" alt="" className="h-12 sm:h-16 md:h-20" />
           <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-3 hover:sm:-translate-y-4 hover:scale-110 hover:-translate-x-3 hover:sm:-translate-x-4">DESIGN</h3>
         </button>
-        <div className="relative flex -z-10 mt-4 w-full flex-col items-center justify-center overflow-hidden">
+        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
           <Marquee pauseOnHover className="[--duration:20s]">
             {designs.designs.map((review) => (
               <ReviewCard key={review.number} {...review} />

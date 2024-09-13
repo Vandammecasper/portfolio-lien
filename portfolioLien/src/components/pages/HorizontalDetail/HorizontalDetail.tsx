@@ -1,10 +1,55 @@
 import { useLocation, useNavigate } from "react-router-dom";
-import Header from "../../basics/Header/Header";
 import designs from "../../../utils/data/designs.json";
 import photos from "../../../utils/data/photos.json";
 import Marquee from "../../basics/Marquee/Marquee";
 import { PictureRoulette } from "../../basics/PictureRoulette/PictureRoulette";
 
+const Pictures = ({kind, name} : {kind: string, name:string}) => {
+  if(kind === "design") {
+    const des = designs.designs.find(design => design.name === name)
+    if(des?.detailPictures){
+      return(
+        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
+          <Marquee pauseOnHover className="[--duration:20s]">
+            {des.detailPictures.map((picture) => (
+              <PictureRoulette img={picture} />
+            ))}
+          </Marquee>
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
+        </div>
+      )
+    } else {
+      return (
+        <div className="w-screen flex justify-center">
+          <img src={des?.details} alt="" className="h-96" />
+        </div>
+        
+      )
+    }
+  } else if (kind === "photo") {
+    const pho = photos.photos.find(photo => photo.name === name)
+    if(pho?.detailPictures){
+      return(
+        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
+          <Marquee pauseOnHover className="[--duration:20s]">
+            {pho.detailPictures.map((picture) => (
+              <PictureRoulette img={picture} />
+            ))}
+          </Marquee>
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
+        </div>
+      )
+    } else {
+      return (
+        <div className="w-screen flex justify-center">
+          <img src={pho?.details} alt="" className="h-96" />
+        </div>
+      )
+    }
+  }
+}
 
 const HorizontalDetail = () => {
   const location = useLocation();
@@ -37,23 +82,15 @@ const HorizontalDetail = () => {
           </div>
           <p className="text-lg sm:text-xl lg:text-2xl text-black mt-6">{design.description}</p>
         </div>
-        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
-          <Marquee pauseOnHover className="[--duration:20s]">
-            {design.detailPictures.map((picture) => (
-              <PictureRoulette img={picture} />
-            ))}
-          </Marquee>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
-        </div>
+        <Pictures kind="design" name={design.name} />
       </div>
     );
   } else if (project === "photo") {
     photo = photos.photos.find(photo => photo.name === name)
     if(photo)
     return (
-      <Header>
-        <div className="w-screen absolute pl-4 sm:pl-20 mt-4">
+      <div>
+        <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-14 sm:-mt-16">
           <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
             <p className="max-sm:text-sm">Terugkeren</p>
@@ -66,16 +103,8 @@ const HorizontalDetail = () => {
           </div>
           <p className="text-lg sm:text-xl lg:text-2xl text-black mt-6">{photo.description}</p>
         </div>
-        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
-          <Marquee pauseOnHover className="[--duration:20s]">
-            {photo.detailPictures.map((picture) => (
-              <PictureRoulette img={picture} />
-            ))}
-          </Marquee>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
-        </div>
-      </Header>
+        <Pictures kind="photo" name={photo.name} />
+      </div>
     );
   }
 };
