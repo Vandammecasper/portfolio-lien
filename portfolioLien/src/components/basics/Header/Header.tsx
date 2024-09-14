@@ -42,7 +42,7 @@ const Header = ({children}: PropsInterface) => {
         <button onClick={() => {navigate('/design'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-700`}>DESIGN</button>
         <button onClick={() => {navigate('/fotografie'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-1000`}>FOTOGRAFIE</button>
       </div>
-      <div className="mt-16">
+      <div className="mt-16 mb-16">
         {children}
       </div>
     </div>

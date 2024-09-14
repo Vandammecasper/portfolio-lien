@@ -58,9 +58,6 @@ const Home = () => {
           <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
           <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
         </div>
-        <div className="w-screen flex justify-center mt-16">
-          <p className="text-lg">developed by: <a href="https://caspervandamme.vercel.app/" className="text-primary font-ivyMode font-bold underline cursor-pointer">Casper Van Damme</a></p>
-        </div>
       </div>
     </Header>  
   )
