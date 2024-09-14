@@ -30,7 +30,7 @@ const Header = ({children}: PropsInterface) => {
           </DockIcon>
         </Dock>
       </div>
-      <div className="sm:hidden w-screen fixed flex justify-between px-8 py-6 bg-white shadow-lg z-10">
+      <div className="sm:hidden w-screen fixed flex justify-between px-8 py-5 bg-white shadow-lg z-10">
         <h1 onClick={() => navigate('/')} className="text-xl font-ivyMode">HOME</h1>
         <button onClick={toggleMenu}>
           <img src="/menu.svg" alt="" />
