@@ -1,4 +1,4 @@
-import {ReactNode, useState} from "react";
+import {ReactNode, useEffect, useState} from "react";
 import { useNavigate } from "react-router-dom";
 import { Dock, DockIcon } from "../Docking/Docking";
 
@@ -10,10 +10,31 @@ const Header = ({children}: PropsInterface) => {
 
   const navigate = useNavigate();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   }
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY) {
+        // Scrolling down
+        setShowHeader(false);
+      } else {
+        // Scrolling up
+        setShowHeader(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [lastScrollY]);
 
   return (
     <div className={`w-full overflow-x-hidden flex flex-col`}>
@@ -30,7 +51,7 @@ const Header = ({children}: PropsInterface) => {
           </DockIcon>
         </Dock>
       </div>
-      <div className="sm:hidden w-screen fixed flex justify-between px-8 py-5 bg-white shadow-lg z-10">
+      <div className={`sm:hidden w-screen fixed flex justify-between px-8 py-5 bg-white shadow-lg z-10 ${showHeader ? 'block' : 'hidden'}`}>
         <h1 onClick={() => navigate('/')} className="text-xl font-ivyMode">HOME</h1>
         <button onClick={toggleMenu}>
           <img src="/menu.svg" alt="" />
