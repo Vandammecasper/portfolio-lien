@@ -39,7 +39,7 @@ const Header = ({children}: PropsInterface) => {
   return (
     <div className={`w-full overflow-x-hidden flex flex-col`}>
       <div className="hidden sm:block fixed self-center z-10">
-        <Dock direction="middle" className="px-4 gap-4 pr-8">
+        <Dock direction="middle" className="px-4 gap-4 pr-14">
           <DockIcon>
             <button onClick={() => navigate('/')}>HOME</button>
           </DockIcon>
@@ -47,7 +47,7 @@ const Header = ({children}: PropsInterface) => {
             <button onClick={() => navigate('/design')}>DESIGN</button>
           </DockIcon>
           <DockIcon>
-            <button onClick={() => navigate('/fotografie')}>FOTOGRAFIE</button>
+            <button className="ml-9" onClick={() => navigate('/fotografie')}>FOTOGRAFIE</button>
           </DockIcon>
         </Dock>
       </div>
