@@ -22,7 +22,7 @@ const Pictures = ({kind, name} : {kind: string, name:string}) => {
     } else {
       return (
         <div className="w-screen flex justify-center">
-          <img src={des?.details} alt="" className="h-96 2xl:h-100" />
+          <img src={des?.details} alt="" className="h-96 2xl:h-110" />
         </div>
         
       )
@@ -44,7 +44,7 @@ const Pictures = ({kind, name} : {kind: string, name:string}) => {
     } else {
       return (
         <div className="w-screen flex justify-center">
-          <img src={pho?.details} alt="" className="h-96 2xl:h-100" />
+          <img src={pho?.details} alt="" className="h-96 2xl:h-110" />
         </div>
       )
     }
@@ -75,7 +75,7 @@ const HorizontalDetail = () => {
             <p className="max-sm:text-sm">TERUGKEREN</p>
           </button>
         </div>
-        <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-28 gap-20 mb-8">
+        <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-28 gap-20 mb-8 2xl:mb-16">
           <div className="flex items-end">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
             <img src="/portfolio_icon_green.svg" alt="" className="h-2.5 sm:h-3 lg:h-4 ml-1.5 max-sm:mb-0.5"/>
