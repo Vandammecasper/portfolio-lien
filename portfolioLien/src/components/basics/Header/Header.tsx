@@ -37,8 +37,8 @@ const Header = ({children}: PropsInterface) => {
   }, [lastScrollY]);
 
   return (
-    <div className={`w-full overflow-x-hidden flex flex-col`}>
-      <div className="hidden sm:block fixed self-center z-10">
+    <div className={`w-full overflow-x-hidden flex flex-col z-40`}>
+      <div className="hidden sm:block fixed self-center z-40">
         <Dock direction="middle" className="px-4 gap-4 pr-14">
           <DockIcon>
             <button onClick={() => navigate('/')}>HOME</button>
