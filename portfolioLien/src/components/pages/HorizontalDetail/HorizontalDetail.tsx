@@ -69,13 +69,13 @@ const HorizontalDetail = () => {
     if(design)
     return (
       <div>
-        <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-14 sm:-mt-16">
+        <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-16 sm:-mt-20">
           <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
             <p className="max-sm:text-sm">Terugkeren</p>
           </button>
         </div>
-        <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8">
+        <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-28 gap-20 mb-8">
           <div className="flex items-end">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-ivyMode overflow-hidden text-black ">{design.name}</h1>
             <img src="/portfolio_icon_green.svg" alt="" className="h-2.5 sm:h-3 lg:h-4 ml-1.5 max-sm:mb-0.5"/>
