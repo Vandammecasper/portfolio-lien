@@ -22,7 +22,7 @@ const Pictures = ({kind, name} : {kind: string, name:string}) => {
     } else {
       return (
         <div className="w-screen flex justify-center">
-          <img src={des?.details} alt="" className="h-96" />
+          <img src={des?.details} alt="" className="h-96 2xl:h-100" />
         </div>
         
       )
@@ -44,7 +44,7 @@ const Pictures = ({kind, name} : {kind: string, name:string}) => {
     } else {
       return (
         <div className="w-screen flex justify-center">
-          <img src={pho?.details} alt="" className="h-96" />
+          <img src={pho?.details} alt="" className="h-96 2xl:h-100" />
         </div>
       )
     }
