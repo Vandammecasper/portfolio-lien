@@ -75,8 +75,7 @@ const HorizontalDetail = () => {
             className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full 
                       hover:bg-grey transition-colors duration-300"
           >
-            <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2 hover:hidden"/>
-            <img src="/arrow_left_white" alt="" className="h-6 sm:h-8 -ml-2 hidden hover:block" />
+            <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
             <p className="max-sm:text-sm">TERUGKEREN</p>
           </button>
         </div>
