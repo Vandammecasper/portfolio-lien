@@ -6,6 +6,7 @@ export default {
       primary: "#B0D795",
       white: "#fff",
       black: "#000",
+      grey: "#EDF6E6",
     },
     fontFamily: {
       ivyMode: ["IvyMode", "sans-serif"],
