@@ -59,9 +59,17 @@ const Header = ({children}: PropsInterface) => {
       </div>
       <div className={`pt-10 h-screen w-screen flex flex-col gap-12 items-center justify-center fixed bg-primary z-50 transition ease-in-out delay-100 duration-700 ${menuOpen ? 'translate-y-0' : 'translate-y-full'}`}>
         <img onClick={toggleMenu} src="/close.svg" alt="" className="absolute top-8 right-8 h-12"/>
-        <button onClick={() => {navigate('/'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-500`}>HOME</button>
-        <button onClick={() => {navigate('/design'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-700`}>DESIGN</button>
-        <button onClick={() => {navigate('/fotografie'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-1000`}>FOTOGRAFIE</button>
+        <button onClick={() => {navigate('/'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-300`}>HOME</button>
+        <button onClick={() => {navigate('/design'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-500`}>DESIGN</button>
+        <button onClick={() => {navigate('/fotografie'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-700`}>FOTOGRAFIE</button>
+        <div className={`flex gap-8 items-center ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-1000`}>
+          <a href="https://www.linkedin.com/in/lien-van-den-abbeele/">
+            <img src="/linkedin.png" alt="" className="h-8"/>
+          </a>
+          <a href="mailto:lien.vdabbeele@telenet.be">
+            <img src="/mail.svg" alt=""  className="h-11"/>
+          </a>
+        </div>
       </div>
       <div className="mt-16 mb-16">
         {children}
