@@ -68,7 +68,7 @@ const HorizontalDetail = () => {
     design = designs.designs.find(design => design.name === name)
     if(design)
     return (
-      <div>
+      <div className="mb-16">
         <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-16 sm:-mt-20">
           <button 
             onClick={handleGoBack} 
@@ -94,7 +94,7 @@ const HorizontalDetail = () => {
     photo = photos.photos.find(photo => photo.name === name)
     if(photo)
     return (
-      <div>
+      <div className="mb-16">
         <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-14 sm:-mt-16">
           <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
