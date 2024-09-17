@@ -64,10 +64,10 @@ const Header = ({children}: PropsInterface) => {
         <button onClick={() => {navigate('/fotografie'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-700`}>FOTOGRAFIE</button>
         <div className={`flex gap-8 items-center ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-1000`}>
           <a href="https://www.linkedin.com/in/lien-van-den-abbeele/">
-            <img src="/linkedin.png" alt="" className="h-8"/>
+            <img src="/linkedin.png" alt="" className="h-6"/>
           </a>
           <a href="mailto:lien.vdabbeele@telenet.be">
-            <img src="/mail.svg" alt=""  className="h-11"/>
+            <img src="/mail.svg" alt=""  className="h-8"/>
           </a>
         </div>
       </div>
