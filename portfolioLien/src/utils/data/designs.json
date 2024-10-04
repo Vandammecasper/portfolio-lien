@@ -17,6 +17,10 @@
       "roulette": "/logo_roulette.png",
       "projects": "/logo_design.png",
       "details": "/logo.png",
+      "detailPictures":[
+        "/logo.png",
+        "/Mockup_briefpapier_en_naamkaartje.jpg"
+      ],
       "align": "vertical",
       "description": "Bij deze opdracht was het de bedoeling om een logo te ontwerpen voor een bedrijf en een naam die we uit een beperkte lijst moesten selecteren. Ik koos voor de naam Rinkka voor een tapasbar. In het logo zie je een versimpelde versie van een olijftak, dit omdat olijven iets typisch zijn voor de spaanse keuken en dus vaak ook te vinden zijn in tapasbarren."
     },
@@ -80,6 +84,16 @@
       ],
       "align": "horizontal",
       "description": "In deze opdracht was het de bedoeling om een reeks van 3 typografische boekcovers te ontwerpen. Ik koos voor de titels 'Een weeffout in onze sterren', 'Spotgaai' en 'De labyrint renner'. Bij 'Een weeffout in onze sterren' hebt ik de letters van 'sterren' in elkaar verweven en een R gespiegeld. Bij 'Spotgaai' heb ik ervoor gezorgd dat er een visuele spot komt in het midden van het boek door de letters van 'spot' steeds kleiner te maken en de A's van 'gaai' naar het midden te richten. Bij 'De labyrint renner' heb ik een labyrint in de N getekend."
+    },
+    {
+      "number": "7",
+      "type": "design",
+      "name": "EARTH OVERSHOOT DAY",
+      "roulette": "/move_the_date_roulette.png",
+      "projects": "/move_the_date_design.png",
+      "details": "/CMO2-E_VandenAbbeeleLien_opdracht1.jpg",
+      "align": "vertical",
+      "description": "De opdracht was om een poster te maken over Earth Overshoot Day aan de hand van zelf getrokken foto's. Ik wou een poster ontwerpen die aandacht trok zodat mensen dichter zouden komen kijken. Ik kwam met het idee om een manderijn uit te hollen en te fotograferen met een gat erin. Dit als symbool voor onze aarde, die zonder grondstoffen in de toekomst ook een leeg gat zou zijn."
     }
   ]
 }
