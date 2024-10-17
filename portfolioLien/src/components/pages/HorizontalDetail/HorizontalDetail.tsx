@@ -3,20 +3,31 @@ import designs from "../../../utils/data/designs.json";
 import photos from "../../../utils/data/photos.json";
 import Marquee from "../../basics/Marquee/Marquee";
 import { PictureRoulette } from "../../basics/PictureRoulette/PictureRoulette";
+import { useState } from "react";
+
 
 const Pictures = ({kind, name} : {kind: string, name:string}) => {
   if(kind === "design") {
     const des = designs.designs.find(design => design.name === name)
     if(des?.detailPictures){
+      // eslint-disable-next-line react-hooks/rules-of-hooks
+      const [currentPicture, setCurrentPicture] = useState(0)
+      const prevPicture = () => {
+        setCurrentPicture((prev) =>
+          prev > 0 ? prev - 1 : des.detailPictures.length - 1
+        );
+      }
+
+      const nextPicture = () => {
+        setCurrentPicture((prev) =>
+          prev < des.detailPictures.length - 1 ? prev + 1 : 0
+        );
+      }
       return(
-        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
-          <Marquee pauseOnHover className="[--duration:20s]">
-            {des.detailPictures.map((picture) => (
-              <PictureRoulette img={picture} />
-            ))}
-          </Marquee>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
+        <div className="relative flex mt-4 w-full items-center justify-center overflow-hidden gap-16">
+          <img onClick={prevPicture} src="/arrow_left.svg" alt="" className="h-24" />
+          <img src={des.detailPictures[currentPicture]} alt="" className="h-96 2xl:h-110" />
+          <img onClick={nextPicture} src="/arrow_right.svg" alt="" className="h-24"/>
         </div>
       )
     } else {
@@ -30,15 +41,24 @@ const Pictures = ({kind, name} : {kind: string, name:string}) => {
   } else if (kind === "photo") {
     const pho = photos.photos.find(photo => photo.name === name)
     if(pho?.detailPictures){
+      // eslint-disable-next-line react-hooks/rules-of-hooks
+      const [currentPicture, setCurrentPicture] = useState(0)
+      const prevPicture = () => {
+        setCurrentPicture((prev) =>
+          prev > 0 ? prev - 1 : pho.detailPictures.length - 1
+        );
+      }
+
+      const nextPicture = () => {
+        setCurrentPicture((prev) =>
+          prev < pho.detailPictures.length - 1 ? prev + 1 : 0
+        );
+      }
       return(
-        <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden">
-          <Marquee pauseOnHover className="[--duration:20s]">
-            {pho.detailPictures.map((picture) => (
-              <PictureRoulette img={picture} />
-            ))}
-          </Marquee>
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-white"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l from-white"></div>
+        <div className="relative flex mt-4 w-full items-center justify-center overflow-hidden gap-16">
+          <img onClick={prevPicture} src="/arrow_left.svg" alt="" className="h-24" />
+          <img src={pho.detailPictures[currentPicture]} alt="" className="h-96 2xl:h-110" />
+          <img onClick={nextPicture} src="/arrow_right.svg" alt="" className="h-24"/>
         </div>
       )
     } else {
