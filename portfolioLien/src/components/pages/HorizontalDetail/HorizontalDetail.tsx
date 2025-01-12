@@ -125,7 +125,7 @@ const HorizontalDetail = () => {
                       hover:bg-grey transition-colors duration-300"
           >
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
-            <p className="max-sm:text-sm">TERUGKEREN</p>
+            <p className="max-sm:text-sm">GO BACK</p>
           </button>
         </div>
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-28 gap-20 mb-8 2xl:mb-16">
@@ -146,7 +146,7 @@ const HorizontalDetail = () => {
         <div className="w-screen absolute pl-10 sm:pl-20 md:pl-28 -mt-14 sm:-mt-16">
           <button onClick={handleGoBack} className="flex items-center justify-center gap-0 sm:gap-1 p-0.5 px-3 border-4 border-primary rounded-full">
             <img src="/arrow_left.svg" alt="" className="h-6 sm:h-8 -ml-2"/>
-            <p className="max-sm:text-sm">Terugkeren</p>
+            <p className="max-sm:text-sm">GO BACK</p>
           </button>
         </div>
         <div className="px-10 sm:px-20 md:px-28 xl:pr-80 mt-20 gap-20 mb-8 2xl:mb-16">

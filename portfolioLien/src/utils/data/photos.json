@@ -23,12 +23,12 @@
         "/Barcelona_VandenAbbeeleLien_20230324_19-23.png"
       ],
       "align": "horizontal",
-      "description": "Tijdens onze studiereis naar Barcelona moesten we foto's trekken over de stad in weerspiegelingen of door ramen."
+      "description": "During our study trip to Barcelona, we had to take photos in the city reflected in surfaces or through windows."
     },
     {
       "number": "2",
       "type": "photo",
-      "name": "PORTRETTEN",
+      "name": "PORTRAITS",
       "roulette": "/portretten_roulette.png",
       "projects": "/portretten_fotografie.png",
       "details": "/portretten.png",
@@ -38,12 +38,12 @@
         "/F06_VandenAbbeeleLien_20230413_17-12.jpg"
       ],
       "align": "vertical",
-      "description": "We moesten 3 portretten trekken, waarvan 1 zwart-wit."
+      "description": "We had to take three portraits, one of which had to be in black and white."
     },
     {
       "number": "3",
       "type": "photo",
-      "name": "DAGBOEKNOTITIES",
+      "name": "DIARY NOTES",
       "roulette": "/dagboeknotities_roulette.png",
       "projects": "/dagboeknotities_fotografie.png",
       "details": "/dagboeknotities.png",
@@ -70,17 +70,17 @@
         "/LF01_VandenAbbeeleLien_20230529_29-13.jpg"
       ],
       "align": "horizontal",
-      "description": "Gedurende het gehele semester moesten we foto's trekken in ons dagdagelijkse leven. Op het einde van het semester moesten we hier 20 foto's uitkiezen."
+      "description": "Throughout the entire semester, we had to take photos of our daily lives. At the end of the semester, we had to select 20 photos from these."
     },
     {
       "number": "4",
       "type": "photo",
-      "name": "STOEL UIT HABITAT",
+      "name": "CHAIR OUT OF HABITAT",
       "roulette": "/stoeluithabitat_roulette.png",
       "projects": "/stoeluithabitat_fotografie.png",
       "details": "/stoeluithabitat.png",
       "align": "vertical",
-      "description": "We moesten een stoel uit zijn habitat halen en fotograferen."
+      "description": "We had to take a chair out of its natural habitat and photograph it."
     },
     {
       "number": "5",
@@ -90,17 +90,17 @@
       "projects": "/studioportret_fotografie.png",
       "details": "/studioportret.png",
       "align": "vertical",
-      "description": "We moesten een bestaand portret nabootsen in de fotostudio."
+      "description": "We had to replicate an existing portrait in the photo studio."
     },
     {
       "number": "6",
       "type": "photo",
-      "name": "COMPOSITIE EITJES",
+      "name": "COMPOSITION OF EGGS",
       "roulette": "/eitjes_roulette.png",
       "projects": "/eitjes_fotografie.png",
       "details": "/eitjes.png",
       "align": "horizontal",
-      "description": "We moesten een compositie van enkele eitjes fotograferen voor een schoolopdracht."
+      "description": "We had to photograph a composition of a few eggs for a school assignment."
     }
   ]
 }
