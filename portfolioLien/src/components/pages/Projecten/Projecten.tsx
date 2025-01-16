@@ -32,7 +32,7 @@ const Projecten = () => {
   } else if (title === "FOTOGRAFIE") {
     return (
       <Header>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-ivyMode text-black mt-20 ml-8 lg:ml-20">FOTOGRAPHY</h1>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-ivyMode text-black mt-20 ml-8 lg:ml-20">PHOTOGRAPHY</h1>
         <img src="/portfolio_icon_green.svg" alt="" className="absolute h-96 -ml-40 mt-64 -z-20"/>
         <div className="grid max-sm:w-screen max-sm:justify-items-center sm:grid-cols-2 lg:grid-cols-3 sm:mx-8 lg:mx-20 mt-8 sm:mt-16 md:mt-20 gap-6 sm:gap-10">
           {photos.photos.map((photo) => (
