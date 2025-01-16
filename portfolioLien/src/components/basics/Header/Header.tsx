@@ -47,7 +47,7 @@ const Header = ({children}: PropsInterface) => {
             <button onClick={() => navigate('/design')}>DESIGN</button>
           </DockIcon>
           <DockIcon>
-            <button className="ml-9" onClick={() => navigate('/fotografie')}>FOTOGRAPHY</button>
+            <button className="ml-9" onClick={() => navigate('/fotografie')}>PHOTOGRAPHY</button>
           </DockIcon>
         </Dock>
       </div>
@@ -61,7 +61,7 @@ const Header = ({children}: PropsInterface) => {
         <img onClick={toggleMenu} src="/close.svg" alt="" className="absolute top-8 right-8 h-12"/>
         <button onClick={() => {navigate('/'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-300`}>HOME</button>
         <button onClick={() => {navigate('/design'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-500`}>DESIGN</button>
-        <button onClick={() => {navigate('/fotografie'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-700`}>FOTOGRAPHY</button>
+        <button onClick={() => {navigate('/fotografie'); toggleMenu()}} className={`text-4xl font-ivyMode font-bold text-white ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-700`}>PHOTOGRAPHY</button>
         <div className={`flex gap-8 items-center ${menuOpen ? 'opacity-100 -translate-y-8' : 'opacity-0 translate-y-0'} transition duration-200 ease-in-out delay-1000`}>
           <a href="https://www.linkedin.com/in/lien-van-den-abbeele/">
             <img src="/linkedin.png" alt="" className="h-6"/>
