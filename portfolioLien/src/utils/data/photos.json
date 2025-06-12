@@ -2,7 +2,7 @@
   "photos": [
     {
       "number": "1",
-      "type": "shop",
+      "type": "photo",
       "name": "FRUITBOAT",
       "roulette": "/fruitbootje_roulette.png",
       "projects": "/fruitbootje_project.png",
@@ -12,7 +12,7 @@
     },
     {
       "number": "2",
-      "type": "shop",
+      "type": "photo",
       "name": "FANTASY ANIMAL",
       "roulette": "/fantasy_animal_roulette.png",
       "projects": "/fantasy_animal_project.png",
@@ -22,7 +22,7 @@
     },
     {
       "number": "3",
-      "type": "shop",
+      "type": "photo",
       "name": "PHOTOSHOPED POSTER BELGIUM",
       "roulette": "/kijkplaat_roulette.png",
       "projects": "/kijkplaat_project.png",
