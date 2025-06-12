@@ -17,6 +17,10 @@ const router = createBrowserRouter([
         element: <Projecten />
     },
     {
+        path: "/photoshop",
+        element: <Projecten />
+    },
+    {
         path: "/detail/:project/:name",
         element: <HorizontalDetail />
     }

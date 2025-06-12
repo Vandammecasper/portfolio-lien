@@ -1,0 +1,14 @@
+{
+    "photoshops": [
+      {
+        "number": "1",
+        "type": "shop",
+        "name": "FRUITBOAT",
+        "roulette": "/move_the_date_roulette.png",
+        "projects": "/fruitbootje_project.png",
+        "details": "/fruitbootje.png",
+        "align": "horizontal",
+        "description": "For this assignment, we had to make a little boat out of a piece of fruit. There were two additional requirements: there also had to be a person in the boat, and there had to be a beam of light in or on the boat."
+      }
+    ]
+  }

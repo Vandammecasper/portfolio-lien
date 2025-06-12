@@ -46,7 +46,7 @@ const Home = () => {
         </div>
         <button onClick={() => {navigate('/fotografie')}} className="flex mt-12 ml-10 items-end">
           <img src="/portfolio_icon_green.svg" alt="" className="h-12 sm:h-16 md:h-20" />
-          <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">FOTOGRAPHY</h3>
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-ivyMode max-sm:-mb-0.5 -ml-4 sm:-ml-6 transition ease-in-out delay-100 duration-300 hover:-translate-y-4 hover:scale-110 hover:-translate-x-4">PHOTOGRAPHY</h3>
         </button>
         <div className="relative flex mt-4 w-full flex-col items-center justify-center overflow-hidden bg-background">
           <Marquee pauseOnHover className="[--duration:20s]">

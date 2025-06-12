@@ -2,6 +2,36 @@
   "photos": [
     {
       "number": "1",
+      "type": "shop",
+      "name": "FRUITBOAT",
+      "roulette": "/fruitbootje_roulette.png",
+      "projects": "/fruitbootje_project.png",
+      "details": "/fruitbootje.png",
+      "align": "horizontal",
+      "description": "For this assignment, we had to make a little boat out of a piece of fruit. There were two additional requirements: there also had to be a person in the boat, and there had to be a beam of light in or on the boat."
+    },
+    {
+      "number": "2",
+      "type": "shop",
+      "name": "FANTASY ANIMAL",
+      "roulette": "/fantasy_animal_roulette.png",
+      "projects": "/fantasy_animal_project.png",
+      "details": "/fantasy_animal.png",
+      "align": "vertical",
+      "description": "For this assignment, we had to create a combination of three animals. I chose to put the head of a squirrel on the body of a horse, with the tail of a cat."
+    },
+    {
+      "number": "3",
+      "type": "shop",
+      "name": "PHOTOSHOPED POSTER BELGIUM",
+      "roulette": "/kijkplaat_roulette.png",
+      "projects": "/kijkplaat_project.png",
+      "details": "/kijkplaat.png",
+      "align": "vertical",
+      "description": "For this assignment, we had to create a Photoshop composition that reflects Belgium. I chose to depict the Burgundian lifestyle of the Belgians."
+    },
+    {
+      "number": "4",
       "type": "photo",
       "name": "BARCELONA",
       "roulette": "/barcelona_roulette.png",
@@ -26,7 +56,7 @@
       "description": "During our study trip to Barcelona, we had to take photos in the city reflected in surfaces or through windows."
     },
     {
-      "number": "2",
+      "number": "5",
       "type": "photo",
       "name": "PORTRAITS",
       "roulette": "/portretten_roulette.png",
@@ -41,7 +71,7 @@
       "description": "We had to take three portraits, one of which had to be in black and white."
     },
     {
-      "number": "3",
+      "number": "6",
       "type": "photo",
       "name": "DIARY NOTES",
       "roulette": "/dagboeknotities_roulette.png",
@@ -73,7 +103,7 @@
       "description": "Throughout the entire semester, we had to take photos of our daily lives. At the end of the semester, we had to select 20 photos from these."
     },
     {
-      "number": "4",
+      "number": "7",
       "type": "photo",
       "name": "CHAIR OUT OF HABITAT",
       "roulette": "/stoeluithabitat_roulette.png",
@@ -83,7 +113,7 @@
       "description": "We had to take a chair out of its natural habitat and photograph it."
     },
     {
-      "number": "5",
+      "number": "8",
       "type": "photo",
       "name": "STUDIOPORTRET",
       "roulette": "/studioportret_roulette.png",
@@ -93,7 +123,7 @@
       "description": "We had to replicate an existing portrait in the photo studio."
     },
     {
-      "number": "6",
+      "number": "9",
       "type": "photo",
       "name": "COMPOSITION OF EGGS",
       "roulette": "/eitjes_roulette.png",
